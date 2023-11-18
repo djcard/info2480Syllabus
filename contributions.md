@@ -1,0 +1,3 @@
+# Contributions
+
+You directly contribute to direction and content of the class by your participation. Your questions and comments help to guide the conversation and can raise or lower the standard of discourse. This can be positive or negative. However, you also can negatively contribute to the class by your silence. A good idea that is buried and never discussed impacts no-one and leaves everyone else either trying to figure out a problem with incomplete information or heading down a path which you could have corrected. When an idea doesn’t pan out, who is more responsible - the person with the vocalized the bad idea or the person who knew better but said nothing to help the situation?

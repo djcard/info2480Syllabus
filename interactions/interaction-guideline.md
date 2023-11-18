@@ -1,0 +1,3 @@
+# Interaction Guideline
+
+It’s been said that no-one can walk through this life without impacting the people, environment and culture around them. This is also very true for an online class. Each of us (including you) help create the culture and environment in which we’ll be working for the next 10 weeks. Is the experience going to be better or worse because of your presence? Every group, no matter the purpose or how fleeting its existence, has a social contract whether it is articulated or not. This document is a brief overview of some of the articulated items in our social contract for the next 10 weeks.
