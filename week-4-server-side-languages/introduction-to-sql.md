@@ -1,4 +1,4 @@
-# Week 4: Server Side Languages
+# Introduction to SQL
 
 What is a server language?
 
