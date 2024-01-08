@@ -11,4 +11,4 @@ The public web site is where your course projects and most of the exercises will
 
 All of the work you do will start on your own computer and then be transferred to the class servers. This document is the start of setting up your overall work space.
 
-**Note**: This document uses “ftpUserName” as a place holder for the username you’ve received for this class. This will more than likely be in the form of firstname\_lastname.
+**Note**: This document uses “ftpUserName” as a place holder for the username you’ve received for this class. This will more than likely be in the form of firstname\_lastname but might be something else.

@@ -1,3 +1,9 @@
+---
+description: >-
+  Goal: By the end of this document, you will create the folder which will house
+  all your work for this class.
+---
+
 # Folder Structure
 
 How you set up your folders is important in that it can make your life easier or more complicated. A large part of any web design (or any software design project for that matter) is getting your files in the right place at the right time. You want your folder structure to be clear, intuitive and above all easy!
@@ -51,3 +57,5 @@ For this class you might do something like this:
 ```
 
 That way you can put multiple classes or projects under UML and keep everything straight and clear.
+
+Whatever your preference, create at least one folder which is going to house all the work for this class. &#x20;
