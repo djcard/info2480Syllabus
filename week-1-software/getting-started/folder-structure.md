@@ -6,6 +6,8 @@ description: >-
 
 # Folder Structure
 
+**`TLDR : Skip to the last item to see absolutely essential info about your class folder structure.`**
+
 How you set up your folders is important in that it can make your life easier or more complicated. A large part of any web design (or any software design project for that matter) is getting your files in the right place at the right time. You want your folder structure to be clear, intuitive and above all easy!
 
 Since each developer / designer has their own way of thinking, your structure might deviate slightly from this but make sure it makes sense and works for you. To start off, make a folder on your hard drive which is going to house all of your web projects which I’ll call “sites”. Under that, make a folder for each “client” you have. This “client” level might include actual clients, personal projects, experimental sites and whatever you choose. The next level down is an actual project for that client.
@@ -43,19 +45,22 @@ Here is a more detailed example with real world clients and projects
 
     **CFSamples** – a project
 
-**PersonalIntranet** – a project
+    **PersonalIntranet** – a project
 ```
 
 For this class you might do something like this:
 
-**Sites** – houses all your web projects
-
 ```
-**UML** – houses all your UML coursework
-
-    **WebDataImplementation** – the work for this class
+Sites – houses all your web projects
+    **UML** – houses all your UML coursework
+        **WebDataImplementation** – the work for this class
 ```
 
 That way you can put multiple classes or projects under UML and keep everything straight and clear.
 
-Whatever your preference, create at least one folder which is going to house all the work for this class. &#x20;
+**At the very minimum, you will need to start this course with a two deep folder structure like this:**
+
+`**Root of the Project and web site`
+
+&#x20;   `** Your personal Folder`\
+&#x20;   &#x20;
