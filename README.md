@@ -2,16 +2,16 @@
 
 ## General Information
 
-| Course Number                  |  INFO 2480-061 (1282)                                                        |
-| ------------------------------ | ---------------------------------------------------------------------------- |
-| Course Title                   | Website Database Implementation                                              |
-| Credits                        |  3                                                                           |
-| Semester/Class                 | Spring 2024                                                                  |
-| Faculty Name                   |  Dan Card                                                                    |
-| Office Hours                   |                                                                              |
-| Contact Info for Office Hours  | List all the ways students can connect with you virtually during these hours |
-| Phone/Email                    | <p>Blackboard Messaging<br>daniel_card@uml.edu</p>                           |
-|                                | Email: daniel\_card@uml.edu                                                  |
+| Course Number                  |  INFO 2480-061 (1282)                              |
+| ------------------------------ | -------------------------------------------------- |
+| Course Title                   | Website Database Implementation                    |
+| Credits                        |  3                                                 |
+| Semester/Class                 | Spring 2024                                        |
+| Faculty Name                   |  Dan Card                                          |
+| Office Hours                   |                                                    |
+| Contact Info for Office Hours  |                                                    |
+| Phone/Email                    | <p>Blackboard Messaging<br>daniel_card@uml.edu</p> |
+|                                | Email: daniel\_card@uml.edu                        |
 
 &#x20;
 
