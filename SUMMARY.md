@@ -29,7 +29,6 @@
   * [Getting Started](week-1-software/getting-started/README.md)
     * [Connecting to the VPN](week-1-software/getting-started/connecting-to-the-vpn.md)
     * [Setting up Multifactor Authentication (MFA)](week-1-software/getting-started/setting-up-multifactor-authentication-mfa.md)
-    * [Opening Your Class Web Site Online.](week-1-software/getting-started/opening-your-class-web-site-online..md)
     * [Folder Structure](week-1-software/getting-started/folder-structure.md)
   * [Git: Getting Started](week-1-software-and-setup/git-getting-started/README.md)
     * [Installing a Git Client](week-1-software-and-setup/git-getting-started/installing-a-git-client.md)

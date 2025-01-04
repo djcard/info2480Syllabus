@@ -17,7 +17,7 @@ As we've already seen, we wrap a math problem in #s like #5+3# which evaluates t
 
 / is for division #5/2#=\<cfoutput>#5/2#\</cfoutput>
 
-* is for multiplication #5_3#=\<cfoutput>#5_3#\</cfoutput>
+* is for multiplication #&#x35;_&#x33;#=\<cfoutput>#&#x35;_&#x33;#\</cfoutput>
 
 Mod is short for modulus which is the remainder after division. #9 mod 2# = \<cfoutput>#9 mod 2#\</cfoutput>
 

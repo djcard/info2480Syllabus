@@ -58,9 +58,5 @@ Sites – houses all your web projects
 
 That way you can put multiple classes or projects under UML and keep everything straight and clear.
 
-**At the very minimum, you will need to start this course with a two deep folder structure like this:**
-
-`**Root of the Project and web site`
-
-&#x20;   `** Your personal Folder`\
+**At the very minimum, you will need to start this course with a dedicated folder for all your work.**\
 &#x20;   &#x20;
