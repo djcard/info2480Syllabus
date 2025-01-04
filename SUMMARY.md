@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Syllabus](README.md)
+* [Welcome Letter](welcome-letter.md)
 * [Class Overview](<README (1).md>)
   * [General Course Information](<README (1) (1).md>)
   * [Course Description](course-description.md)
