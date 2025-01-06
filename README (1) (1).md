@@ -10,4 +10,4 @@ Final Project due: 11:59pm, April 4, 2005
 
 
 
-**General Note**: Web development is typicall done with the goal of seeing your work in a browser or other networked software. As a result, your work in this class will typically not be turned in on Blackboard. Instead, most assignments will be "pushed" to an account on Github.com.&#x20;
+**General Note**: Web development is typically done with the goal of seeing your work in a browser or other networked software. As a result, your work in this class will typically not be turned in on Blackboard. Instead, most assignments will be "pushed" to an account on Github.com.&#x20;

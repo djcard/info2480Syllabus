@@ -1,6 +1,6 @@
 # Installing Command Box
 
-CommandBox (CB) developed by OrtusSolutions ([http://www.ortussolutions.com](http://www.ortussolutions.com))  is a Command Line Interface (“CLI”) which is used by ColdFusion developers because of the way it makes many routine and complex tasks easier. If you have used any modern JavaScript tools, particularly node, CommandBox has many of the same functions as NPM. **If you have never used those tools, that is perfectly ok as well.**
+CommandBox (CB) developed by OrtusSolutions ([http://www.ortussolutions.com](http://www.ortussolutions.com))  is a Command Line Interface (“CLI”) which makes many routine and complex tasks easier. If you have used any modern JavaScript tools, particularly node, CommandBox has many of the same functions as NPM. **If you have never used those tools, that is perfectly ok as well.**
 
 While CommandBox has a number of features built in to it, we are going to focus mainly on two of them which are
 
