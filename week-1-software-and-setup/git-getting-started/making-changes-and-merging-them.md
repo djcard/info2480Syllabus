@@ -31,7 +31,7 @@ Let's make some edits. Remember, we don't want to edit our Master version. We wa
 
 ## Merging Your Changes Into the Master Branch
 
-1. Check out the master branch by double clicking on "master" in the left hand menu. Make sure it is in bold to indicate it is checked out.&#x20;
-2. Right click on First-Edit and choose "Merge First Edit into current branch".&#x20;
+1. Check out the master branch by double clicking on "`master`" in the left hand menu. Make sure it is in bold to indicate it is checked out.&#x20;
+2. Right click on First-Edit and choose "`Merge First Edit into current branch`".&#x20;
 3. Confirm the merge by clicking ok.&#x20;
 4. Open MyFirstText.txt in your text editor. It should have all of your changes in it.&#x20;

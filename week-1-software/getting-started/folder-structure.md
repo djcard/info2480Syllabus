@@ -25,35 +25,37 @@ Here is a more detailed example with real world clients and projects
 **Sites** – The folder housing all of my projects
 
 ```
-**AMS** – a “client”
+AMS – a “client”
 
-    **AMSLive** – a project
+    AMSLive – a project
 
-    **AMSConversion** – a project
+    AMSConversion – a project
 
-**UML** – a “client”
+UML – a “client”
 
-    **SP21** – a project
+    SP21 – a project
 
-    **FA21** – a project
+    FA21 – a project
 
-    **SU22** – a project
+    SU22 – a project
 
-**MyStuff** – you are your own “client”
+MyStuff – you are your own “client”
 
-    **LearnReact** – a project
+    LearnReact – a project
 
-    **CFSamples** – a project
+    CFSamples – a project
 
-    **PersonalIntranet** – a project
+    PersonalIntranet – a project
 ```
 
 For this class you might do something like this:
 
 ```
 Sites – houses all your web projects
-    **UML** – houses all your UML coursework
-        **WebDataImplementation** – the work for this class
+    UML – houses all your UML coursework
+        WebDataImplementation – the work for this class
+            practiceGit - a project in this class
+            ongoingWork - the main folder for your classword
 ```
 
 That way you can put multiple classes or projects under UML and keep everything straight and clear.

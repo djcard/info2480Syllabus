@@ -6,7 +6,7 @@ So what does CommandBox do and why are we using a command line tool when we have
 
 1. Open the Sites folder with whatever tool you normally use to browse the folders on your computer (Windows explorer, the Finder, etc) and put it side by side with CommandBox so you can see both of them. If this doesn’t work you can flip back and forth between the two windows.
 2. In Command Box type “LS” and press enter. I used caps there to avoid confusion between an L and a I but lower case is fine. You should see the same list of files and folders in CommandBox as you so in your other tool. LS stands for “list”
-3. In CommandBox, type “mkdir myNewExpFolder”. You should see a new folder appear in the other window. MKDIR stands for “Make Directory”.
+3. In CommandBox, type “`mkdir myNewExpFolder`”. You should see a new folder appear in the other window. MKDIR stands for “Make Directory”.
 4. This also works in reverse. Make a new folder in your GUI and when you type “ls” in CommandBox, you should see the same folder. You are looking in the same folder just using two different tools to do so.
 5. In CommandBox, type “touch newFile.txt”. You created a new file called newFile.txt in that folder.
 6. In CommandBox, type “cd MyNewExpFolder” and press enter. The prompt will change to say MyNewExpFolder. You are now “in” the folder MyNewExpFolder and any command you run will occur in that folder. To go “up” a level, type “cd ..”. CD stands for “change directory”.
@@ -17,7 +17,7 @@ Package are collections of files and folders that are part of a website or progr
 
 1. To get started, navigate to the folder that will contain the work for this class. If you followed the example above, this will be \Sites\UML\WebDatabaseImplementation
 2. Type “install uml-2480”. If you copy and paste from here, pasting into CommandBox, like every CLI, might not be as simple as CTRL-V or COMMAND-V. You will might need to right click in the CommandBox window. CommandBox will reach out to a package repository called Forgebox, find the package of software called "uml-2480" and copy it to the folder you were in when you ran the command.&#x20;
-3. Type "install". and hit Enter When uml-2480 wsa copied to your hard drive, there is a file called "package.json" which has information about this particular package including **dependencies**. These are other packages which this one needs to run. If there are any, typing install will make sure they are all installed as well.&#x20;
+3. Type "LS" again and you will see files in what was an empty folder. If you run this command again, the files that are here now will be overwritten so careful if you make edits to them that you don't run it again by accident. Many times packages are installed in a sub folder to avoid that kind of problem but our package is meant to be the root of your class website so it is configured to install at the root level.&#x20;
 
 ### Starting a Server
 
@@ -30,7 +30,12 @@ Package are collections of files and folders that are part of a website or progr
 In the same folder, there is a file named `server.json`  which has information about this particular server.  Since 127.0.0.1:#### can be difficult to remember, let's adapt the server configuration to use an easier to remember address. To do that we will need to run CommandBox as an administrator.
 
 1. Close CommandBox by either typing `exit` from the prompt or clicking the `X` on the window.
-2. Re
+2. Re-open CommandBox but this time, do it running as the Administrator. On Windows, right click on the file and choose `Run As Administrator`. On a Mac, this might mean opening terminal, navigating to where you unzipped the box app and then typing `sudo box` . You might need to install your Admin password after doing that.
+3. We need to install another package that is actually for CommandBox itself, not our app specifically. Type `install commandbox-hostupdater`.&#x20;
+4. Once that installs we are going to make some settings changes. Think of a domain name that you'll remember like `webclass.local` or something like that. It can literally be anything. I just use the `.local` to remind myself that it is on my computer and not on the web. Type `server set web.host=webclass.local`. Then type `server restart`. If you get an error, try `server restart` again, sometimes the hostupdater needs to navigate some permissions and it errors.
+5. Once the server restarts, type `server open` to open the browser to the new address. It should say `webclass.local:######`.  We've changed the address in the nav bar but not the port.&#x20;
+6. Go back to CommandBox and type `server set web.http.port=80` and type `server restart` then `server open` after the server restarts. You should see webclass.local in the address bar.&#x20;
+7. If you are done working on this for now, type `server stop`.&#x20;
 
 That’s it. You can read more about CommandBox in the online documentation at [https://commandbox.ortusbooks.com/](https://commandbox.ortusbooks.com/)
 
