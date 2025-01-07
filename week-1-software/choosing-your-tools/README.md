@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Choosing Your Tools
 
 ### Setting up your work environment

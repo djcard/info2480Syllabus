@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Testing Your Setup
 
 Let’s make sure that you have everything set up correctly and understand what each piece of software does. Follow the directions below in order. Pay attention since some of them are designed to fail on purpose (and will say so!) to illustrate the role that a piece of software has. If at any point what you get doesn’t match what is expected, figure out why before going on to the next step. If you get all the way through, you are all set up!
