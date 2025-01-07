@@ -45,6 +45,7 @@
   * [Git: Github](week-2-review-of-html-and-css/git-github/README.md)
     * [Creating a New Account](week-2-review-of-html-and-css/git-github/creating-a-new-account.md)
     * [Cloning and Forking](week-2-review-of-html-and-css/git-github/cloning-and-forking.md)
+    * [Creating a Repo on Github](week-2-review-of-html-and-css/git-github/creating-a-repo-on-github.md)
   * [Installing Command Box](week-2-review-of-html-and-css/installing-command-box/README.md)
     * [Downloading the Software](week-2-review-of-html-and-css/installing-command-box/downloading-the-software.md)
     * [Unzipping and Running the Software for the first time](week-2-review-of-html-and-css/installing-command-box/unzipping-and-running-the-software-for-the-first-time.md)
