@@ -25,6 +25,7 @@
   * [Academic Integrity Policy](academic-integrity-policy.md)
   * [Student Disability Services](student-disability-services.md)
   * [Course Vocabulary List](course-vocabulary-list.md)
+* [Deep Background](deep-background.md)
 * [Week 1: Software and Setup](weekly-breakdown/week-1-software.md)
   * [Getting Started](week-1-software/getting-started/README.md)
     * [Connecting to the VPN](week-1-software/getting-started/connecting-to-the-vpn.md)
