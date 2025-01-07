@@ -18,10 +18,19 @@ Package are collections of files and folders that are part of a website or progr
 1. To get started, navigate to the folder that will contain the work for this class. If you followed the example above, this will be \Sites\UML\WebDatabaseImplementation
 2. Type “install uml-2480”. If you copy and paste from here, pasting into CommandBox, like every CLI, might not be as simple as CTRL-V or COMMAND-V. You will might need to right click in the CommandBox window. CommandBox will reach out to a package repository called Forgebox, find the package of software called "uml-2480" and copy it to the folder you were in when you ran the command.&#x20;
 3. Type "install". and hit Enter When uml-2480 wsa copied to your hard drive, there is a file called "package.json" which has information about this particular package including **dependencies**. These are other packages which this one needs to run. If there are any, typing install will make sure they are all installed as well.&#x20;
-4. Type “server start”. Wait a minute while the web server and the BoxLang server are configured. A browser will open and you’ll see the main page of a website.
-5. Pay close attention to the address in the address bar. It will look something like[http://127.0.0.1](http://127.0.0.1):#####/. This means that the page is being served off of a web server on your machine over the IP address 127.0.0.1, which always refers to the local machine no matter what, and can be viewed over port ##### (a number). This is very important to include. If you just type in [http://127.0.0.1](http://127.0.0.1), you will not get this site. You might want to bookmark this address or simply remember that you can go back to CommandBox to type “server open” to open the browser again.
-6. You can stop the server by typing “server stop” and enter in CommandBox from the same folder in which you started the server. This last part is important. If you type server start in a different folder, a new server will start on a different port and you will have two running at the same time. This is very handy if that is deliberate but can be confusing if it isn't.
-7.
+
+### Starting a Server
+
+1. Type `server start`. Wait a minute while the web server and the BoxLang server are configured. A browser will open and you’ll see the main page of a website.
+2. Pay close attention to the address in the address bar. It will look something like [`http://127.0.0.1`](http://127.0.0.1)`:#####/.` This means that the page is being served off of a web server on your machine over the IP address `127.0.0.1`, which always refers to the local machine no matter what, and can be viewed over port ##### (a number). This is very important to include. If you just type in [`http://127.0.0.1`](http://127.0.0.1), you will not get this site. You might want to bookmark this address or simply remember that you can go back to CommandBox to type `server open` to open the browser again.
+3. You can stop the server by typing `server stop` and enter in CommandBox from the same folder in which you started the server. This last part is important. If you type server start in a different folder, a new server will start on a different port and you will have two running at the same time. This is very handy if that is deliberate but can be confusing if it isn't.
+
+### Configuring The Server&#x20;
+
+In the same folder, there is a file named `server.json`  which has information about this particular server.  Since 127.0.0.1:#### can be difficult to remember, let's adapt the server configuration to use an easier to remember address. To do that we will need to run CommandBox as an administrator.
+
+1. Close CommandBox by either typing `exit` from the prompt or clicking the `X` on the window.
+2. Re
 
 That’s it. You can read more about CommandBox in the online documentation at [https://commandbox.ortusbooks.com/](https://commandbox.ortusbooks.com/)
 
