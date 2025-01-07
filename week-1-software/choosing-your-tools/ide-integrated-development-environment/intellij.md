@@ -9,8 +9,8 @@ There are 5 steps to setting up IntelliJ as your IDE:
 1. Register for the student license
 2. Download the trial software and Installing the software
 3. Creating a project for your website
-4. Connecting to the class servers
-5. Uploading and Manipulating Files
+
+
 
 ### Notice
 
@@ -35,35 +35,6 @@ Visit [http://www.jetbrains.com/student/](http://www.jetbrains.com/student/) the
 Projects are made up of all the files that go into make a final product. For some languages this can include all sorts of libraries, dependencies, modules, outside programming and more. However, for our purposes, we are not using any of those so the process is very straightforward.
 
 1. Click on File —> Open
-2. Navigate to the root of your website. This is the _ftpUserName_ folder inside of the ThisIsTheRootOfTheWebsite folder.
+2. Navigate to the root of your website. If you followed the suggestions in the Folder Structure section, that would be Sites/UML/WebDataImplementation/ongoingWork
 3. Click Finish. If asked, open the project in a new window.
 
-### Connecting to the Class Servers
-
-IntelliJ has a built in tool called Deployment which we’ll use to connect to the UML servers.
-
-1. Click on TOOLS —> Deployment —> Configuration
-2. On the Connections Tab, change the type to “FTPS”
-3. The FTPs Host is [comweb.uml.edu](http://comweb.uml.edu)
-4. The port is 990
-5. Under the advanced area choose TLS: Implicit
-6. Under the advanced area choose Passive mode
-7. The root path is / \*\*You can also click on Autodetect to fill this in for you. -
-8. Enter your ftpUserName and password - Check Save Password - -
-9. Enter the web server URL as[http://comweb.uml.edu](http://comweb.uml.edu)
-10. Under the Mappings tab, the local path should be your ftpUserName folder
-11. The Deployment Path should be /
-12. The web path on the server should be /
-13. Go back to the Connection tab and click on Test FTPS Connection
-14. You should see a window that says Successfully connected to [comweb.uml.edu](http://comweb.uml.edu)
-
-## Uploading and Downloading Files
-
-On the left hand side of the screen you should see a list of the files in your local folder. By right clicking on a folder or file and going to the Deployment Menu you can:
-
-* Upload the file to Comweb
-* Download the files from Comweb
-* Compare the Deployed Version on Comweb
-* Sync the Deployed with Comweb (this is a bit dicy when it comes to version so perhaps best to be avoided).
-
-We’ll be doing more with uploading and downloading in a later document.
