@@ -48,17 +48,15 @@ MyStuff – you are your own “client”
     PersonalIntranet – a project
 ```
 
-For this class you might do something like this:
+For this class I'd suggest doing something like this:
 
 ```
 Sites – houses all your web projects
     UML – houses all your UML coursework
         WebDataImplementation – the work for this class
             practiceGit - a project in this class
-            ongoingWork - the main folder for your classword
+            ongoingWork - the main folder for your classwork
 ```
-
-That way you can put multiple classes or projects under UML and keep everything straight and clear.
 
 **At the very minimum, you will need to start this course with a dedicated folder for all your work.**\
 &#x20;   &#x20;
