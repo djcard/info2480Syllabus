@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Week 5: Creating Forms and Consuming Data
 
 Using the Bootstrap CSS rules
