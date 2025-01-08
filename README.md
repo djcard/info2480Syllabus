@@ -27,11 +27,11 @@ In some multi-section courses, these must be approved by Department and cannot b
 
 Upon completion of this course, the students will demonstrate the ability to:&#x20;
 
-1. Basic knowledge of Web Development tools such as git, FTP, IDEs, and CLIs
+1. Basic knowledge of Web Development tools such as git, IDEs, and CLIs
 2. Ability to use HTML, CSS and JavaScript to create a working User Interface (UI)
 3. Understanding of MVC and separation of concerns when it comes to web development
 4. Ability to create and edit data tables and basic Create, Retrieve, Update and Delete ( CRUD ) SQL
-5. Basic to intermediate programming concepts and techniques such as using objects, arrays, loops, scopes, and functions.
+5. Basic to intermediate programming concepts and techniques such as using objects, arrays, loops, scopes, classes and functions.
 6. Combine all of the above techniques to create a working and searchable book repository, user login and simple content management system.
 
 &#x20;
@@ -121,12 +121,6 @@ Additionally, Student Disability Services supports software for ALL students. Re
 
 &#x20;
 
-## Diversity, Inclusion, and Classroom Community Standards:
-
-UMass Lowell—and your professor—value human diversity in all its forms, whether expressed through race and ethnicity, culture, political and social views, religious and spiritual beliefs, language and geographic characteristics, gender, gender identities and sexual orientations, learning and physical abilities, age, and social or economic classes. Diversity and individual differences are respected, appreciated, and recognized as a source of strength in this class. Please interact respectfully with one another.
-
-&#x20;
-
 ## Academic Integrity Policy:&#x20;
 
 Students are responsible for the honest completion and representation of their work and are held to the highest standards of integrity. Please review the [University policy regarding academic integrity](https://www.uml.edu/catalog/undergraduate/policies/academic-policies/academic-integrity.aspx). If you choose to remain in this course, you must agree that you will neither give nor receive any unauthorized help on your homework, papers, exams, or other work. &#x20;
@@ -134,12 +128,6 @@ Students are responsible for the honest completion and representation of their w
 Outline clearly your own policies for academic integrity. &#x20;
 
 &#x20;
-
-## Cell Phones and Other Devices:&#x20;
-
-Not Applicable to an online course.
-
-&#x20;&#x20;
 
 ## Credit Hour Policy&#x20;
 
@@ -155,7 +143,7 @@ Students should expect that chat sessions will be recorded and made available on
 
 ## Late Work&#x20;
 
-In this class, each week involves work and concepts which build on the previous weeks so it is highly encouraged that you keep as up to date as possible. However, life happens and sometimes things needs to take higher priority than the weeks assignments. If you find yourself getting behind in the class or there are extenuating curcumstances which I should know about, please reach out to me. \
+In this class, each week involves work and concepts which build on the previous weeks so it is highly encouraged that you keep as up to date as possible. However, life happens and sometimes things needs to take higher priority than the weeks assignments. If you find yourself getting behind in the class or there are extenuating circumstances which I should know about, please reach out to me. \
 
 
 ## Course Outline & Class Schedule:&#x20;
