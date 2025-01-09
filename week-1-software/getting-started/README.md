@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Getting Started
 
 The “Getting Started” step consists of two main steps

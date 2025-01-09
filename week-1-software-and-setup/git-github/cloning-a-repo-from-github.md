@@ -16,7 +16,7 @@ If you find a repo you want to use (or have created on in your own repo and want
 
     <figure><img src="../../.gitbook/assets/git4.png" alt=""><figcaption></figcaption></figure>
 7. Back in Sourcetree, paste that URL into the top textbox in the Clone screen.
-8.  Browse to you the folder where you want to clone your site. If you followed the suggestion in [Folder Structure](../../week-1-software/getting-started/folder-structure.md) setup this will be `Sites\UML\WebDataImplementation` and create a new folder called `ongoingWork`.  **Note: the image is for a demo, the domains and folders be different from yours.**
+8.  Browse to you the folder where you want to clone your site. If you followed the suggestion in [Folder Structure](../folder-structure.md) setup this will be `Sites\UML\WebDataImplementation` and create a new folder called `ongoingWork`.  **Note: the image is for a demo, the domains and folders be different from yours.**
 
     <figure><img src="../../.gitbook/assets/git5.png" alt=""><figcaption></figcaption></figure>
 9. Click on Clone and the repo will be copied to your local machine.

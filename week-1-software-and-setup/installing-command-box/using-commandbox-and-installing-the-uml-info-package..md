@@ -15,7 +15,7 @@ So what does CommandBox do and why are we using a command line tool when we have
 
 Package are collections of files and folders that are part of a website or program and serve a purpose. We’re going to use CommandBox to download the first set of files to get you started in this class.
 
-1. To get started, navigate to the folder that will contain the work for this class. If you followed the example in the [Folder Structure](../../week-1-software/getting-started/folder-structure.md) section, this will be `\Sites\UML\WebDatabaseImplementation\ongoingWork`&#x20;
+1. To get started, navigate to the folder that will contain the work for this class. If you followed the example in the [Folder Structure](../folder-structure.md) section, this will be `\Sites\UML\WebDatabaseImplementation\ongoingWork`&#x20;
 2. Type `install uml-2480`. If you copy and paste from here, pasting into CommandBox, like every CLI, might not be as simple as CTRL-V or COMMAND-V. You will might need to right click in the CommandBox window. CommandBox will reach out to a package repository called Forgebox, find the package of software called `uml-2480` and copy it to the folder you were in when you ran the command.&#x20;
 3. Type `LS` again and you will see files in what was an empty folder. If you run this command again, the files that are here now will be overwritten so careful if you make edits to them that you don't run it again by accident. Many times packages are installed in a sub folder to avoid that kind of problem but our package is meant to be the root of your class website so it is configured to install at the root level.&#x20;
 
