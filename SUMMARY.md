@@ -34,7 +34,7 @@
     * [Folder Structure](week-1-software/getting-started/folder-structure.md)
   * [Git: Getting Started](week-1-software-and-setup/git-getting-started/README.md)
     * [Installing a Git Client](week-1-software-and-setup/git-getting-started/installing-a-git-client.md)
-    * [Git: A first experiment](week-1-software-and-setup/git-getting-started/git-a-first-experiment.md)
+    * [Creating a Local Repository](week-1-software-and-setup/git-getting-started/creating-a-local-repository.md)
     * [Making Changes and Merging them](week-1-software-and-setup/git-getting-started/making-changes-and-merging-them.md)
     * [Git Wrap Up](week-1-software-and-setup/git-getting-started/git-wrap-up.md)
   * [Choosing Your Tools](week-1-software/choosing-your-tools/README.md)

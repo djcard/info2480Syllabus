@@ -4,7 +4,7 @@ description: >-
   created a new file, staged the file and committed it to your local repo.
 ---
 
-# Git: A first experiment
+# Creating a Local Repository
 
 Once you have installed SourceTree (or other client) you are ready to experiment with git. The first step is to create a git repo. We are going to use SourceTree to perform all of these actions for now.&#x20;
 
@@ -13,7 +13,7 @@ Once you have installed SourceTree (or other client) you are ready to experiment
 1. Open SourceTree and click the + symbol in top menu bar or choose `FILE -> Clone/New` in the tool bar.&#x20;
 2. Click on CREATE in the tool bar that appears\
    &#x20;![](<../../.gitbook/assets/image (1).png>)
-3. If you followed the pattern outlines in the [Folder Structure](../../week-1-software/getting-started/folder-structure.md) section, choose  `Sites\UML\WebDataImplementation\practiceGit`. If you didn't, simply choose a empty folder.   \
+3. If you followed the pattern outlines in the [Folder Structure](../../week-1-software/getting-started/folder-structure.md) section, navigate to `Sites\UML\WebDataImplementation\`and make a new folder called `"practiceGit"` If you didn't, simply choose a empty folder.   \
    ![](<../../.gitbook/assets/image (1) (1).png>)
 4. Click Create.&#x20;
 5. Use either Windows Explorer or Finder to go to the `practiceGit` folder. Make sure you have it configured to see hidden files and folders ( Google how if you need to). You should see a folder called ".git" folder. This is where git will save all the information it needs to manage all the branches for the repository ( or repo ) in this folder. **Note: Don't edit any of the files in that folder. Bad things to your work can happen. Let git handle it all.**&#x20;
