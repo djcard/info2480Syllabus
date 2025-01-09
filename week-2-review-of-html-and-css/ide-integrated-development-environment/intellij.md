@@ -10,12 +10,6 @@ There are 5 steps to setting up IntelliJ as your IDE:
 2. Download the trial software and Installing the software
 3. Creating a project for your website
 
-
-
-### Notice
-
-It is essential that you set up the new VPN BEFORE doing the instructions in document. Please refer to the Getting Started document or visit [https://www.uml.edu/it/services/get-connected/remote-access/](https://www.uml.edu/it/services/get-connected/remote-access/) for more information.
-
 ### Registering for the student license
 
 Visit [http://www.jetbrains.com/student/](http://www.jetbrains.com/student/) the click on Apply Now. Follow the directions and make sure you use your UML email address. You will be sent a license or a login which you can use as long as you’re a student.
