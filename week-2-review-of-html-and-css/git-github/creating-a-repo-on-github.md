@@ -20,7 +20,7 @@ Now, we’re going to create a new repository on [GitHub.com](http://github.com)
 2. In the left menu of the Dashboard (the default page when you login) will be a list of your Top Repositories and a green button that says `New`. Click on it. ![](../../.gitbook/assets/git1.png)
 3. In the window which appears,
 
-* Give your repository a name ( `umlinfo2480-exercises` is given here as an example ).
+* Give your repository a name ( `umlinfo2480` is given here as an example ).
 * Give it a description if you choose
 * Keep it public
 * Check Add a README file
