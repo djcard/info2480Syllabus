@@ -1,5 +1,3 @@
 # Week 1: Software and Setup
 
-Setting up a local development environment on your computer including a web server, scripting server, IDE, SQL Server Studio or equivalent and FTP client
-
-Accessing a package manager or software repository such as github
+This week we are going to set up the folders structure on our local machines and start to work with a software program called GIT.&#x20;

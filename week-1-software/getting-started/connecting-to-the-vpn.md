@@ -1,5 +1,6 @@
 ---
 description: 'Goal: By the end of this document, you''ll have connected to the school VPN'
+hidden: true
 ---
 
 # Connecting to the VPN
