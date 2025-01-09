@@ -4,10 +4,10 @@
 
 We’ve talked about how git is used to share code between developers and then created a repo cloned it to your local machine. The next step is to invite someone to work on your project with you. In this case, in order to make it easier for me to help debug code and fix problems, I’d request that you make me a collaborator on your project.
 
-1. Log into your Github account and go to your `uml_info_2480_061` repository page.
+1. Log into your Github account and go to your repository  for this class.
 2. Click on the Settings button in the menu bar
-3. From the left hand menu, click on Collaborators
-4. Click on the green button - Add people - and enter `daniel-card` into the text box and Choose my name or user name when it appears.
+3. From the left hand menu, click on Collaborators. You might need to go through authentication again. &#x20;
+4. Click on the green button - ![](../../.gitbook/assets/image.png)and enter `daniel-card` into the text box and Choose my name or user name when it appears.
 5. Click the `Add daniel-card to this repository` button
 6. I’ll be notified via my Github inbox to accept the collaboration.
 

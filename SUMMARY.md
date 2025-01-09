@@ -47,6 +47,7 @@
     * [Creating a Repo on Github](week-2-review-of-html-and-css/git-github/creating-a-repo-on-github.md)
     * [Cloning and Forking](week-2-review-of-html-and-css/git-github/cloning-and-forking.md)
     * [Cloning a Repo from Github](week-2-review-of-html-and-css/git-github/cloning-a-repo-from-github.md)
+    * [Pushing Changes to Github.com](week-2-review-of-html-and-css/git-github/pushing-changes-to-github.com.md)
     * [Github: Adding a Collaborator](week-2-review-of-html-and-css/git-github/github-adding-a-collaborator.md)
   * [Installing Command Box](week-2-review-of-html-and-css/installing-command-box/README.md)
     * [Downloading the Software](week-2-review-of-html-and-css/installing-command-box/downloading-the-software.md)
