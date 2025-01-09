@@ -8,44 +8,41 @@ description: >-
 
 **`TLDR : Skip to the last item to see absolutely essential info about your class folder structure.`**
 
-How you set up your folders is important in that it can make your life easier or more complicated. A large part of any web design (or any software design project for that matter) is getting your files in the right place at the right time. You want your folder structure to be clear, intuitive and above all easy!
+How you set up your folders is important in that it can make your life easier or more complicated. A large part of any web design (or any software design project for that matter) is getting your files in the right place at the right time. You want your folder structure to be clear, intuitive and, above all, easy!
 
 Since each developer / designer has their own way of thinking, your structure might deviate slightly from this but make sure it makes sense and works for you. To start off, make a folder on your hard drive which is going to house all of your web projects which I’ll call “sites”. Under that, make a folder for each “client” you have. This “client” level might include actual clients, personal projects, experimental sites and whatever you choose. The next level down is an actual project for that client.
 
-`Sites`
-
 ```
-Client
-
-    Project
+Sites
+    Client
+        Project
 ```
 
 Here is a more detailed example with real world clients and projects
 
-**Sites** – The folder housing all of my projects
-
 ```
-AMS – a “client”
+Sites – The folder housing all of my projects
+    AMS – a “client”
 
-    AMSLive – a project
+        AMSLive – a project
 
-    AMSConversion – a project
+        AMSConversion – a project
 
-UML – a “client”
+    UML – a “client”
 
-    SP21 – a project
+        SP21 – a project
 
-    FA21 – a project
+        FA21 – a project
 
-    SU22 – a project
+        SU22 – a project
 
-MyStuff – you are your own “client”
+    MyStuff – you are your own “client”
 
-    LearnReact – a project
+        LearnReact – a project
 
-    CFSamples – a project
+        CFSamples – a project
 
-    PersonalIntranet – a project
+        PersonalIntranet – a project
 ```
 
 For this class I'd suggest doing something like this:
