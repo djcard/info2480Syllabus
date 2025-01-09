@@ -1,8 +1,12 @@
+---
+description: >-
+  Goal: By the end of this document you’ll be able to create a repository on
+  Github and clone it to your local machine.
+---
+
 # Creating a Repo on Github
 
-**Goal: By the end of this document you’ll be able to create a repository on Github and clone it to your local machine.**
-
-Last week, we looked at creating a git repo on our local machine. We also:
+Previously, we looked at creating a git repo on our local machine. We also:
 
 * Created a text file
 * Staged and committed that text file to our local repo
