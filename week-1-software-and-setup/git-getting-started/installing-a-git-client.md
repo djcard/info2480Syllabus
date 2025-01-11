@@ -14,4 +14,5 @@ There are many ways to use git and many of them involve a series of command line
 1. Visit [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/) and download Source Tree for your OS ( Windows, Mac, Linux etc)
 2. Install the software. This will put the GUI on your computer but also install a version of git.&#x20;
 3. If asked to choose between BitBucket Cloud or BitBucket Server, choose cloud. However, a BitBucket or Atlassian account is not necessary for this class.
+4. If asked about SSH keys, we will not be using them in this class.
 
