@@ -30,8 +30,8 @@ IF YOU RUN IN TO SECURITY ISSUES CONTINUE ON
     <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 8. Click on Generate Token
 9. IMPORTANT: COPY THIS TOKEN TO A FILE AND KEEP IT SAFE. YOU CAN NOT ACCESS IT AGAIN AFTER YOU CLOSE THIS WINDOW AND WILL HAVE TO GENERATE A NEW TOKEN.&#x20;
-10. Back In your project in Source Tree, click on Settings in the upper right
-11. Under the Remotes Tab, Click on the row for orgin then click Edit
+10. Back in your project in Source Tree, click on Settings in the upper right
+11. Under the Remotes Tab, click on the row for `orgin` then click Edit
 12. In the URL / Path box, **IN FRONT OF THE EXISTING URL**, paste your token followed by an @ sign. The contents of this box will then be `token@github.com/whatever/your/site/path/is.git`
 13. Click OK then OK to close all the windows.
 14. Try to Push to Github again.&#x20;
