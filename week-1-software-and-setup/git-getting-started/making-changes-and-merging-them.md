@@ -15,7 +15,7 @@ Let's make some edits. Remember, we don't want to edit our Master version. We wa
    \
    ![](<../../.gitbook/assets/image (5) (1).png>)
 3. Click on Create Branch.
-4. You will see First-Branch appear in the side menu under branches and will be in bold to indicate that it is the one checked out.&#x20;
+4. You will see First-Edit appear in the side menu under branches and will be in bold to indicate that it is the one checked out.&#x20;
 5. Open MyFirstText.txt in a text editor. If you still have it open from before, you do not need to close and re-open it.&#x20;
 6. Make some changes to it. These can be anything but here is an example:\
    ![](<../../.gitbook/assets/image (6) (1).png>)
