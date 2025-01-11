@@ -20,7 +20,7 @@ Once you have installed SourceTree (or other client) you are ready to experiment
 
 ## Creating, Staging and Committing Files
 
-1. Open a text editor (like Notepad or TextEdit. Do Nouse Microsoft Word or a Word Processor) and create a new file called "MyFirstText.txt" in your git1 folder.&#x20;
+1. Open a text editor (like Notepad or TextEdit. Do **Not** use Microsoft Word or a Word Processor) and create a new file called "MyFirstText.txt" in your git1 folder.&#x20;
 2. Type "This is my first file with git. So far so good." and then save into that `practiceGit` folder.  This saves the file onto your hard drive but it is NOT in your git repository yet.&#x20;
 3. Go back to SourceTree and click on the "`practiceGit`" tab. If you closed that tab, click on the + sign again and use ADD to open that repo again.&#x20;
 4. In the left hand menu pane, under WORKSPACE, click on FILE STATUS.&#x20;
