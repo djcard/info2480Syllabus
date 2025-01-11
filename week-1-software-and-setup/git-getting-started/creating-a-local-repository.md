@@ -26,7 +26,7 @@ Once you have installed SourceTree (or other client) you are ready to experiment
 4. In the left hand menu pane, under WORKSPACE, click on FILE STATUS.&#x20;
 5. In the lower half of the center column you should see a section called "UNSTAGED FILES" and in it your MyFirstText.txt file should be listed. Click on it.&#x20;
 6. You should see the contents of your file appear in the upper right.&#x20;
-7. Back in the center column, click on "STAGE SELECTED". This will move MyFirstText.txt from the unstaged area to the STAGED FILES area. This area is a list of all the files which are going to be put into your repo but are not there yet.&#x20;
+7. Back in the center column, click on "STAGE SELECTED" (On Mac: right click and choose `Stage Files` ). This will move MyFirstText.txt from the unstaged area to the STAGED FILES area. This area is a list of all the files which are going to be put into your repo but are not there yet.&#x20;
 8. At the bottom of the screen you will see a text box with the button COMMIT underneath it. In the text area, type "INITIAL COMMIT". It is customary to put a comment describing the work you did for each commit.&#x20;
 9. Click Commit. This will put your file into the git repository in that folder. It is now in the version control system and managed by git.&#x20;
 10. Look in the left menu panel under BRANCHES and notice that one called "master" has been created. It is in bold which means that is the branch which is currently checked out so all the files, no matter what program in which you open then, will be editing the files in this branch. \
