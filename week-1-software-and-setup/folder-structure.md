@@ -53,7 +53,10 @@ Sites – houses all your web projects
         WebDataImplementation – the work for this class
             practiceGit - a project in this class
             ongoingWork - the main folder for your classwork
+            
 ```
+
+If you're on a Windows machine and `sites` was in your root folder, that would be `C:\Sites\UML\WebDataImplementation`
 
 **At the very minimum, you will need to start this course with a dedicated folder for all your work.**\
 &#x20;   &#x20;
