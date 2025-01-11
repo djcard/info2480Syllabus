@@ -28,7 +28,7 @@ IF YOU RUN IN TO SECURITY ISSUES CONTINUE ON
 7.  Select the checkbox next to repo to select all items in the repo section.&#x20;
 
     <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-8. Click on Genrate Token
+8. Click on Generate Token
 9. IMPORTANT: COPY THIS TOKEN TO A FILE AND KEEP IT SAFE. YOU CAN NOT ACCESS IT AGAIN AFTER YOU CLOSE THIS WINDOW AND WILL HAVE TO GENERATE A NEW TOKEN.&#x20;
 10. Back In your project in Source Tree, click on Settings in the upper right
 11. Under the Remotes Tab, Click on the row for orgin then click Edit
