@@ -15,4 +15,5 @@ There are many ways to use git and many of them involve a series of command line
 2. Install the software. This will put the GUI on your computer but also install a version of git.&#x20;
 3. If asked to choose between BitBucket Cloud or BitBucket Server, choose cloud. However, a BitBucket or Atlassian account is not necessary for this class.
 4. If asked about SSH keys, we will not be using them in this class.
+5. If asked if you want to create a repository on your Atlassian or Bitbucket account, choose `No`. We will be using git repos on GitHub.com later.&#x20;
 
