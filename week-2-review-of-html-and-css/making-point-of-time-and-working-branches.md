@@ -4,7 +4,7 @@ description: >-
   for the start of the project and made a working branch for this week.
 ---
 
-# Making Point of Time and Working Branches
+# Making Point In Time and Working Branches
 
 ## Creating a "Point In Time" branch in SourceTree
 

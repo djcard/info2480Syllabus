@@ -28,17 +28,13 @@ Your assignment this week is to create the foundation of the index page of the b
 
 ## Before You Start
 
-* Make sure that you have created the Week2 branch according to [Making Point In Time and Working Branches](making-point-in-time-and-working-branches.md).&#x20;
+* Make sure that you have created the Week2 branch according to [Making Point In Time and Working Branches](making-point-of-time-and-working-branches.md).&#x20;
 
 ## Start Your Site
 
-Note: Because of a difference in the folder structure on the class server and on the local development environment we set up, it is recommended that you make all link relative to the index page in your folder.
-
 **Remember** – If you have never used a CSS library before, you have probably written your HTML and then written your CSS to stylize it. When you are using a library, the CSS is mostly written (except for the tweaks you do later). This means that you need to make your HTML classes and IDs match the rules that are already written in the library.
 
-We are going to be end up with 6 pages for this exercise. index.cfm, header.cfm, horizontalnav.cfm, genrenav.cfm, carousel.cfm and footer.cfm. The reason for this is a development concept of keeping “chunks” of code as small as possible and as reusable as possible. We’ll get more into that but the big picture is that index.cfm is going to be a wrapper for the other 5 files. That will make more sense as we go.
-
-.
+We are going to be end up with 6 pages for this exercise. `index.bxm`, `header.bxm`, `horizontalnav.bxm`, `genrenav.bxm`, `carousel.bxm` and `footer.bxm`. The reason for this is a development concept of keeping “chunks” of code as small as possible and as reusable as possible. We’ll get more into that but the big picture is that `index.bxm` is going to be a wrapper for the other 5 files. That will make more sense as we go..
 
 ## Using Built In developer Tools
 
@@ -46,21 +42,21 @@ Most of the modern browsers have built in tools that make inspecting what is hap
 
 ## Understanding the Site’s Basic Format
 
-Bootstrap’s layout is based on a layout of rows and columns. Each row is meant to contain up to 12 columns in it. We can control how wide our columns are by using the built in CSS classes. For more detailed description of the grid system refer to the Bootstrap documentation here ([https://getbootstrap.com/docs/5.1/layout/grid/](https://getbootstrap.com/docs/5.1/layout/grid/)).
+Bootstrap’s layout is based on a layout of rows and columns. Each row is meant to contain up to 12 columns in it. We can control how wide our columns are by using the built in CSS classes. For more detailed description of the grid system refer to the Bootstrap documentation here ([https://getbootstrap.com/docs/5.3/layout/grid/](https://getbootstrap.com/docs/5.3/layout/grid/)).
 
 Because of the semantic tags in HTML5 we can break down the page into sections simply.
 
-**Header**: this is bounded by the \<header>\</header> tag. Cut and paste this into header.cfm. In its place in index.cfm type \<cfinclude template=”header.cfm” />. Try opening index.cfm in a browser. Don’t forget you’ll need to have your CommandBox server started.
+**Header**: this is bounded by the \<header>\</header> tag. Cut and paste this into header.bxm. In its place in index.bxm type \<bx:include template=”header.bxm” />. Try opening index.bxm in a browser. Don’t forget you’ll need to have your CommandBox server started.
 
-**Navigation**: this is bounded by the \<nav>\</nav> tag. Put this in horizontalnav.cfm. In its place leave \<cfinclude template=”horizontalnav.cfm” />. Try opening it in the browser.
+**Navigation**: this is bounded by the \<nav>\</nav> tag. Put this in horizontalnav.bxm. In its place leave \<bx:include template=”horizontalnav.bxm” />. Try opening it in the browser.
 
-**Main area**: this is bounded by the \<main>\</main> tag Leave this tag in index.cfm. Try opening it in the browser.
+**Main area**: this is bounded by the \<main>\</main> tag Leave this tag in index.bxm. Try opening it in the browser.
 
-**Carousel**: this is the first \<section>\</section> tag. Put this into carousel.cfm. In its place leave \<cfinclude template=”carousel.cfm” />. Try opening it in the browser.
+**Carousel**: this is the first \<section>\</section> tag. Put this into carousel.bxm. In its place leave \<bx:include template=”carousel.bxm” />. Try opening it in the browser.
 
-**Genre Nav**: this is the second \<section>\</section> tag. Put this in genrenav.cfm. In its place leave \<cfinclude template=”genrenav.cfm” />. Try opening it in the browser.
+**Genre Nav**: this is the second \<section>\</section> tag. Put this in genrenav.bxm. In its place leave \<bx:include template=”genrenav.bxm” />. Try opening it in the browser.
 
-**Footer**: This is the \<footer>\</footer>. Put this in footer.cfm. In its place leave \<cfinclude template=”footer.cfm” />. Try opening it in the browser.
+**Footer**: This is the \<footer>\</footer>. Put this in footer.bxm. In its place leave \<bx:include template=”footer.bxm” />. Try opening it in the browser.
 
 ## Conclusion
 

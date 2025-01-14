@@ -59,7 +59,7 @@
   * [Testing Your Setup](week-1-software/testing-your-setup.md)
   * [Journal](week-1-software/journal.md)
 * [Week 2: Review of HTML and CSS](weekly-breakdown/week-2-review-of-html-and-css.md)
-  * [Making Point In Time and Working Branches](week-2-review-of-html-and-css/making-point-in-time-and-working-branches.md)
+  * [Making Point In Time and Working Branches](week-2-review-of-html-and-css/making-point-of-time-and-working-branches.md)
   * [Opening our Project from Week 1 and Starting our BoxLang server](week-2-review-of-html-and-css/opening-our-project-from-week-1-and-starting-our-boxlang-server.md)
   * [HTTP Calls and Requests](week-2-review-of-html-and-css/http-calls-and-requests.md)
   * [Making a Static Website Dynamic](week-2-review-of-html-and-css/making-a-static-website-dynamic.md)
