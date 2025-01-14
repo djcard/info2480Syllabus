@@ -58,7 +58,7 @@
   * [Testing Your Setup](week-1-software/testing-your-setup.md)
   * [Journal](week-1-software/journal.md)
 * [Week 2: Review of HTML and CSS](weekly-breakdown/week-2-review-of-html-and-css.md)
-  * [Making Our Branches](week-2-review-of-html-and-css/making-our-branches.md)
+  * [Making Point of Time and Working Branches](week-2-review-of-html-and-css/making-point-of-time-and-working-branches.md)
   * [HTTP Calls and Requests](week-2-review-of-html-and-css/http-calls-and-requests.md)
   * [Making a Static Website Dynamic](week-2-review-of-html-and-css/making-a-static-website-dynamic.md)
 * [Week 3: Data](weekly-breakdown/week-3-data.md)

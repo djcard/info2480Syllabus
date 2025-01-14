@@ -4,11 +4,11 @@ description: >-
   for the start of the project and made a working branch for this week.
 ---
 
-# Making Our Branches
+# Making Point of Time and Working Branches
 
 ## Creating a "Point In Time" branch in SourceTree
 
-A "Point in Time" branch is simply a branch in a git repository which is meant to capture and retain what a project looked like at a particular point. There is nothing special or magical about it other than it exists and we can revert our project back to it if we decide to.
+A "Point in Time" branch is simply a branch in a git repository which is meant to capture and retain what a project looked like at a particular point. There is nothing special or magical about it other than it exists and we can revert our project back to it if we decide to. Chances are we will never access this branch again but it is here as a "safety" net incase we need to revert back to it or reference it.
 
 1. Open up SourceTree and make sure you have the Main or Master branch of your project selected and in bold in the left hand menu.
 2. Create a new branch called `pointInTime/original by  clicking` on the Branch Icon in the top toolbar and typing in the name
