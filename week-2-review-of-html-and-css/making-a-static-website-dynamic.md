@@ -13,11 +13,11 @@ Folder: Create this assignment in the “myFinalProject” folder
 
 ## Introduction
 
-The first thing we are going to do this class is a review of HTML and CSS which will also serve an introduction to the Bootstrap CSS library. We are also going to learn our first ColdFusion command which is in the “tag” format which is \<cfinclude>.
+The first thing we are going to do this class is a review of HTML and CSS which will also serve an introduction to the Bootstrap CSS library. We are also going to learn our first BoxLang command which is in the “tag” format which is \<bx:include>.
 
 As I’m sure you know, since it’s a pre-requisite for the class, HTML and CSS are two “languages” which serve as the foundation of web design. HTML provides the structure for the site as a series of rectangular shapes which act as an outline for your page. CSS describes what each of those rectangular shapes look like including layout (height, width, and spatial relationship), formatting (color, border, text attributes and background images) and some programmatic issues (counting, insertion of other special elements) and more.
 
-There are several pre-built libraries of CSS and JavaScript which are available for free on the internet for use by designers and developers in their web pages. One of these is the Bootstrap library located at[http://getbootstrap.com](http://getbootstrap.com). First developed by Twitter throughout the 2010s and made into an open source project in 2011, Bootstrap was completely overhauled with its release of v.3. The version was significant because the entire library was re-written as “mobile first” meaning that it accommodates all screen sizes such as tablets, smart phones, laptops, monitors, and mobile apps with responsive design which can render the page differently based on the available space. We will be using version 5.3.
+There are several pre-built libraries of CSS and JavaScript which are available for free on the internet for use by designers and developers in their web pages. One of these is the Bootstrap library located at [http://getbootstrap.com](http://getbootstrap.com). First developed by Twitter ( now x )  throughout the 2010s and made into an open source project in 2011, Bootstrap was completely overhauled with its release of v.3. The version was significant because the entire library was re-written as “mobile first” meaning that it accommodates all screen sizes such as tablets, smart phones, laptops, monitors, and mobile apps with responsive design which can render the page differently based on the available space. We will be using version 5.3.
 
 Your assignment this week is to create the foundation of the index page of the bookstore web site which we are going to use the rest of the semester. In doing so, we’ll get a review of HTML, CSS and provide a way to learn how to incorporate the Bootstrap library into our projects. The key components we are going to explore are:
 
@@ -26,12 +26,9 @@ Your assignment this week is to create the foundation of the index page of the b
 * Thumbnails
 * Tables
 
-Check out the week 2 documents in the “Codebase” section of the class website.
-
 ## Before You Start
 
-* Make sure that you have completed setting up your work environment and the Connecting to Class Servers process. Each of you has your own space on the server at [comweb.uml.edu](http://comweb.uml.edu).
-* Copy and paste the index.html file from basewebSite into your myFinalProject folder. **Rename it index.cfm**. We’re going to cut sections of the site out of this file and paste those sections into other files.
+* Make sure that you have created the Week2 branch according to [Making Point In Time and Working Branches](making-point-in-time-and-working-branches.md).&#x20;
 
 ## Start Your Site
 
