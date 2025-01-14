@@ -171,19 +171,6 @@ In this class, each week involves work and concepts which build on the previous 
 
 ## Course Outline & Class Schedule:&#x20;
 
-&#x20;
-
-| Date                                 | Topic                                                    | Resources/Assignment            |
-| ------------------------------------ | -------------------------------------------------------- | ------------------------------- |
-| <p>Session 1 </p><p>Insert Date </p> | <p> </p><p> Software Setup and Getting Started</p>       | <p> </p><p> - Journal</p>       |
-| Session 2                            | Review of HTML and CSS                                   | <ul><li>Journal </li></ul>      |
-| Session 3                            | Data                                                     | <ul><li>Journal</li></ul>       |
-| Session 4                            | Server Side Languages                                    | <ul><li>Journal </li></ul>      |
-| Session 5                            | Creating Forms and Consuming Data                        | <ul><li>Journal</li></ul>       |
-| Session 6                            | More on Forms                                            | <ul><li>Journal</li></ul>       |
-| Session 7                            | Creating a Public Search Page                            | <ul><li>Journal</li></ul>       |
-| Session 8                            | Sessions, Logins, Authentication, Authorization, Hashing | <ul><li>Journal</li></ul>       |
-| Session 9                            | A Simple Content Management System                       | <ul><li>Journal</li></ul>       |
-| Session 10                           | Complete Final Project                                   | <ul><li>Final Project</li></ul> |
+&#x20;The course outline is available on Blackboard and will be tailored to your specific semester and pace.&#x20;
 
 &#x20;&#x20;
