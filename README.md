@@ -23,8 +23,6 @@ It is almost impossible to think about creating any sort of modern web site or a
 
 ## Course Learning Outcomes
 
-In some multi-section courses, these must be approved by Department and cannot be changed without department approval. Use measurable objectives. Please include information on any Core Essential Learning Outcomes (ELO’s) for which this course has been approved.
-
 Upon completion of this course, the students will demonstrate the ability to:&#x20;
 
 1. Basic knowledge of Web Development tools such as git, IDEs, and CLIs
@@ -38,16 +36,39 @@ Upon completion of this course, the students will demonstrate the ability to:&#x
 
 ## Textbook/Readings&#x20;
 
-The majority of the content is provided week to week in class documents. Additional materials if desired can be found at:
+The majority of the content is found in the online textbook at [https://book.umlinfo2480.com/](https://book.umlinfo2480.com/). Additional materials if desired can be found at:
 
 * [https://getbootstrap.com/](https://getbootstrap.com/)
+* [https://boxlang.ortusbooks.com/](https://boxlang.ortusbooks.com/)
 * [https://modern-cfml.ortusbooks.com/](https://modern-cfml.ortusbooks.com/)
 
 &#x20;
 
-General Information&#x20;
+## General Information&#x20;
 
-Tailor for specific course&#x20;
+This class is primarily about building databases and making them accessible via websites. At the end of it, you will have created a searchable "bookstore" which has public facing pages where a user can
+
+* &#x20;Search for a book by title or genre and be presented with one, many or zero options
+* Create an account and password
+* View articles and other information about the store such as hours and short articles
+
+It will also include a management portion where an employee can
+
+* Enter new books into the database
+* Edit information about books already in the database
+* Manage information such as new genres, publishers and so on.&#x20;
+
+As we create these things, we are also going to use many of the tools which are common by professional developers including
+
+* &#x20;Command Line Interface (CLI) tools
+* Git - a version control system&#x20;
+* Github.com - an online tool which uses version control tools to help developers collaborate on code
+* Development tools including code hinting, code folding, and sytax highlighting
+* Debugging tools such as line breaks
+* Good Architecture practices such as the MVC model and separation of concerns&#x20;
+
+\
+Hopefully we'll have some fun along the way as well.&#x20;
 
 &#x20;
 
@@ -65,7 +86,7 @@ We will have chats every week. Although these chats are optional, they are highl
 
 Likewise, if I should become ill or need to miss class, I will communicate with you via Blackboard and/or Email as soon as possible with clear instructions.   &#x20;
 
-A note on Zoom (or Blackboard Collaborate) Participation: Feedback we have received from faculty and students from Fall 2020 strongly indicates that keeping cameras on during class improves student engagement and helps faculty to better assess students’ learning. In this class students are expected to keep their on cameras on during class (or you may narrow this to “during lectures or discussion”) unless you have a valid reason not to, which you should discuss with me ahead of time. Occasionally turning your camera off during class to attend to a distraction is fine.
+A note on Zoom (or Blackboard Collaborate) Participation: It is strongly recommended and requested that you keep cameras on during class. This tends to improve engagement and helps me better assess everyone's comprehension. In this class students are expected to keep their on cameras on during class (or you may narrow this to “during lectures or discussion”) unless you have a valid reason not to, which you should discuss with me ahead of time. Occasionally turning your camera off during class to attend to a distraction is fine.
 
 &#x20;&#x20;
 
