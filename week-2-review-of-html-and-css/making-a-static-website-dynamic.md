@@ -1,6 +1,10 @@
-# HTML Bootstrap
+---
+description: >-
+  Goal: By the end of this document, you'll have transformed a static index.html
+  into several BoxLang template (.bxm) pages
+---
 
-Assignment
+# Making a Static Website Dynamic
 
 Folder: Create this assignment in the “myFinalProject” folder
 
