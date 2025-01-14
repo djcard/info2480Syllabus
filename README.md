@@ -67,6 +67,8 @@ As we create these things, we are also going to use many of the tools which are 
 * Debugging tools such as line breaks
 * Good Architecture practices such as the MVC model and separation of concerns&#x20;
 
+We will be using a new language called BoxLang which has a rich ecosystem of development tools and a syntax which is easy to learn with a minimum of overheard and "boilerplate" typing necessary which allows us to focus on the main code of our project. In additional to being powerful and versatile in its own right, the concepts we learn in this class are transferrable too nearly any other programming language so there is no fear of being "locked in" to using a particular language.
+
 \
 Hopefully we'll have some fun along the way as well.&#x20;
 
