@@ -59,7 +59,7 @@
   * [Journal](week-1-software/journal.md)
 * [Week 2: Review of HTML and CSS](weekly-breakdown/week-2-review-of-html-and-css.md)
   * [HTTP Calls and Requests](week-2-review-of-html-and-css/http-calls-and-requests.md)
-  * [HTML Bootstrap](week-2-review-of-html-and-css/html-bootstrap.md)
+  * [Making a Static Website Dynamic](week-2-review-of-html-and-css/making-a-static-website-dynamic.md)
 * [Week 3: Data](weekly-breakdown/week-3-data.md)
   * [Database Creation and Editing](week-1-software/choosing-your-tools/database-creation-and-editing/README.md)
     * [MSSQL Studio](week-1-software/choosing-your-tools/database-creation-and-editing/mssql-studio.md)
