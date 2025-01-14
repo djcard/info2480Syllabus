@@ -65,6 +65,7 @@
   * [Making a Static Website Dynamic](week-2-review-of-html-and-css/making-a-static-website-dynamic.md)
   * [Creating The Management Index.bxm](week-2-review-of-html-and-css/creating-the-management-index.bxm.md)
   * [Creating An HTML Form with Bootstrap](week-2-review-of-html-and-css/creating-an-html-form-with-bootstrap.md)
+  * [Last Steps](week-2-review-of-html-and-css/last-steps.md)
 * [Week 3: Data](weekly-breakdown/week-3-data.md)
   * [Database Creation and Editing](week-1-software/choosing-your-tools/database-creation-and-editing/README.md)
     * [MSSQL Studio](week-1-software/choosing-your-tools/database-creation-and-editing/mssql-studio.md)
