@@ -49,6 +49,7 @@
     * [Unzipping and Running the Software for the first time](week-1-software-and-setup/command-box/unzipping-and-running-the-software-for-the-first-time.md)
     * [Using CommandBox And Installing the UML-Info package.](week-1-software-and-setup/command-box/using-commandbox-and-installing-the-uml-info-package..md)
     * [Setting Up Your Local Server](week-1-software-and-setup/command-box/setting-up-your-local-server.md)
+    * [Last Step](week-1-software-and-setup/command-box/last-step.md)
   * [IDE ( Integrated Development Environment )](week-1-software-and-setup/ide-integrated-development-environment/README.md)
     * [VS Code](week-1-software-and-setup/ide-integrated-development-environment/vs-code.md)
     * [IntelliJ](week-1-software-and-setup/ide-integrated-development-environment/intellij.md)
