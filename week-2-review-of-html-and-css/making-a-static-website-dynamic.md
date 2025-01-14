@@ -52,7 +52,7 @@ Because of the semantic tags in HTML5 we can break down the page into sections s
 
 **Main area**: this is bounded by the \<main>\</main> tag Leave this tag in index.bxm. Try opening it in the browser.
 
-**Carousel**: this is the first \<section>\</section> tag. Put this into carousel.bxm. In its place leave \<bx:include template=”carousel.bxm” />. Try opening it in the browser.
+**Carousel**: this is inside the first \<section>\</section> tag. Put this into carousel.bxm. In its place leave \<bx:include template=”carousel.bxm” />. Try opening it in the browser.
 
 **Genre Nav**: this is the second \<section>\</section> tag. Put this in genrenav.bxm. In its place leave \<bx:include template=”genrenav.bxm” />. Try opening it in the browser.
 

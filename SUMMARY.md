@@ -63,6 +63,8 @@
   * [Opening our Project from Week 1 and Starting our BoxLang server](week-2-review-of-html-and-css/opening-our-project-from-week-1-and-starting-our-boxlang-server.md)
   * [HTTP Calls and Requests](week-2-review-of-html-and-css/http-calls-and-requests.md)
   * [Making a Static Website Dynamic](week-2-review-of-html-and-css/making-a-static-website-dynamic.md)
+  * [Creating The Management Index.bxm](week-2-review-of-html-and-css/creating-the-management-index.bxm.md)
+  * [Creating An HTML Form with Bootstrap](week-2-review-of-html-and-css/creating-an-html-form-with-bootstrap.md)
 * [Week 3: Data](weekly-breakdown/week-3-data.md)
   * [Database Creation and Editing](week-1-software/choosing-your-tools/database-creation-and-editing/README.md)
     * [MSSQL Studio](week-1-software/choosing-your-tools/database-creation-and-editing/mssql-studio.md)
