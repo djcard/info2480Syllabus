@@ -1,14 +1,10 @@
 # MSSQL Studio
 
-### Notice
-
-It is essential that you set up the new VPN BEFORE doing the instructions in document. Please refer to the Getting Started document or visit [https://www.uml.edu/it/services/get-connected/remote-access/](https://www.uml.edu/it/services/get-connected/remote-access/) for more information.
-
 ## Downloading SQL Studio
 
 URL:[https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
 
-* Go to the URL above and click on the Download SQL Management Studio 18.12.1 link.
+* Go to the URL above and click on the download the latest version of SQL Management Studio
 * Save the Files you download to the DOWNLOADS folder you made in above.
 * Done Downloading for now! Take a Break!
 
@@ -24,7 +20,9 @@ SQL Studio is the program we will use to manage the databases we create in MSSQL
 
 * Open SQL Management Studio
 * If the Connect To Server Window does not open, choose FILE —> CONNECT OBJECT EXPLORER
-* The Server name is [comweb.uml.edu](http://comweb.uml.edu) and your Login is your ftpUserName. The port is 51433 which, for SQL Studio, is put next to the URL separated by a **comma**. This is only needed in SQL STUDIO. Other programs will probably allow you to change the port using other means.
+* The Server name: **uml-2025.cyqisqc1fx3i.us-west-2.rds.amazonaws.com**  \
+  username: ftpUserName.\
+  password:&#x20;
 
 Figure 1: Settings for connecting to SQL Server
 
