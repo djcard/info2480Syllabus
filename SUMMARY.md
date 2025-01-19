@@ -70,6 +70,8 @@
   * [Installing Database Tools](week-3-working-forms-and-our-first-table/installing-database-tools/README.md)
     * [MSSQL Studio](week-3-working-forms-and-our-first-table/installing-database-tools/mssql-studio.md)
     * [Datagrip](week-3-working-forms-and-our-first-table/installing-database-tools/datagrip.md)
+    * [Installing MySql WorkBench](week-3-working-forms-and-our-first-table/installing-database-tools/installing-mysql-workbench.md)
+    * [Connecting to your MySQL database](week-3-working-forms-and-our-first-table/installing-database-tools/connecting-to-your-mysql-database.md)
   * [Working Forms](week-3-working-forms-and-our-first-table/working-forms/README.md)
     * [Separation of Concerns](week-3-working-forms-and-our-first-table/working-forms/separation-of-concerns.md)
     * [Creating Our Server Side Logic](week-3-working-forms-and-our-first-table/working-forms/creating-our-server-side-logic.md)

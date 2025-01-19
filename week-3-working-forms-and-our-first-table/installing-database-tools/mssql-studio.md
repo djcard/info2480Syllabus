@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # MSSQL Studio
 
 ## Downloading SQL Studio
