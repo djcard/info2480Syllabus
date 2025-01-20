@@ -77,6 +77,7 @@
     * [Creating Your First Table](week-3-working-forms-and-our-first-table/database-tools-and-your-first-db/creating-your-first-table.md)
   * [Working Forms](week-3-working-forms-and-our-first-table/working-forms/README.md)
     * [Separation of Concerns](week-3-working-forms-and-our-first-table/working-forms/separation-of-concerns.md)
+    * [Configuring Our Site To Use Our Database](week-3-working-forms-and-our-first-table/working-forms/configuring-our-site-to-use-our-database.md)
     * [Creating Our Server Side Logic](week-3-working-forms-and-our-first-table/working-forms/creating-our-server-side-logic.md)
   * [Introduction To Modelling](week-3-working-forms-and-our-first-table/introduction-to-modelling.md)
   * [Introduction To SQL Studio](week-3-working-forms-and-our-first-table/introduction-to-sql-studio.md)

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Introduction To SQL Studio
 
 ## Background
@@ -12,15 +16,7 @@ We’ve talked before about how a relational database such as Microsoft SQL Serv
 * Find your Database in the list. It should correspond with your Blackboard Login.
 * Expand your Database to see the contents underneath. You should see something like this:
 
-<div>
-
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7342fc86-f521-476e-b29b-61dee6f11d80/Untitled.png" alt="">
-
- 
-
-<figure><img src="../.gitbook/assets/SQLStudio1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7342fc86-f521-476e-b29b-61dee6f11d80/Untitled.png" alt=""> <figure><img src="../.gitbook/assets/SQLStudio1.png" alt=""><figcaption></figcaption></figure></div>
 
 Figure 1: The Object Explorer in MSSQL Management Studio
 
@@ -109,15 +105,7 @@ persontorole (We haven’t discussed this table yet but go ahead and make it)
 
 When you get all of these tables completed, make sure you have saved all of them. Right click on the BOOKS in the Object View and choose EDIT TOP 200 ROWS.
 
-<div>
-
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0161f99d-c88f-441a-aed7-983c324b5f06/Untitled.png" alt="">
-
- 
-
-<figure><img src="../.gitbook/assets/SQLStudio4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0161f99d-c88f-441a-aed7-983c324b5f06/Untitled.png" alt=""> <figure><img src="../.gitbook/assets/SQLStudio4.png" alt=""><figcaption></figcaption></figure></div>
 
 Figure 3: Editing Rows in MSSQL Studio
 

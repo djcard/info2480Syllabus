@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Introduction to Creating Tables with SQL
 
 ## Background
@@ -12,15 +16,7 @@ We’ve talked before about how a relational database such as Microsoft SQL Serv
 * Find your Database in the list. It should correspond with your Blackboard Login.
 * Expand your Database to see the contents underneath. You should see something like this:
 
-<div>
-
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7342fc86-f521-476e-b29b-61dee6f11d80/Untitled.png" alt="">
-
- 
-
-<figure><img src="../.gitbook/assets/SQLStudio1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7342fc86-f521-476e-b29b-61dee6f11d80/Untitled.png" alt=""> <figure><img src="../.gitbook/assets/SQLStudio1.png" alt=""><figcaption></figcaption></figure></div>
 
 Figure 1: The Object Explorer in MSSQL Management Studio
 
@@ -46,15 +42,7 @@ We are going to create the four tables which we are going to use in the bookstor
 
 1. Open the SQL window for your client
 
-<div>
-
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c0ab3ca-b179-414c-a0f2-444bc43bd30f/Untitled.png" alt="">
-
- 
-
-<figure><img src="../.gitbook/assets/DataGrip1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c0ab3ca-b179-414c-a0f2-444bc43bd30f/Untitled.png" alt=""> <figure><img src="../.gitbook/assets/DataGrip1.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
