@@ -6,6 +6,8 @@ description: >-
 
 # Creating a Repo on Github
 
+[View Video](https://youtu.be/t_Eft1wd3X0)
+
 Previously, we looked at creating a git repo on our local machine. We also:
 
 * Created a text file
