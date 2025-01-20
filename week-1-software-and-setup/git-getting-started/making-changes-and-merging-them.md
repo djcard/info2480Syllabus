@@ -7,6 +7,8 @@ description: >-
 
 # Making Changes and Merging them
 
+[Watch Video](https://youtu.be/lnEJLzNkCjk)
+
 Let's make some edits. Remember, we don't want to edit our Master version. We want to make our edits in a copy and then, when we are happy with them, merge them into our main branch.&#x20;
 
 1. In SourceTree, double click on the "master" branch in the left side menu under Branches to ensure it is checked out (it will appear in bold if it is) .
