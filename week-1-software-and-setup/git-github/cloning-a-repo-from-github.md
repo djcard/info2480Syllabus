@@ -2,6 +2,8 @@
 
 **Goal: By the end of this document, you’ll be able to clone a repo from** [**Github.com**](http://github.com) **onto your local machine.**
 
+[View Video](https://youtu.be/t_Eft1wd3X0)
+
 If you find a repo you want to use (or have created your own on in your own repo and want to start using it), the next step is to CLONE that repo to your local machine. Cloning, just like in biology, is creating an exact copy of the repo in another location. In this case we are going to clone the repo you created for your exercises in the [Git: Creating a Repo on Github](creating-a-repo-on-github.md) onto your local machine.
 
 1. Log into your [Github.com](http://github.com) account.
