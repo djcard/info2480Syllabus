@@ -8,6 +8,8 @@ description: >-
 
 Once you have installed SourceTree (or other client) you are ready to experiment with git. The first step is to create a git repo. We are going to use SourceTree to perform all of these actions for now.&#x20;
 
+[View Video](https://youtu.be/7i54Sd5IIww)
+
 ## Creating a Git Repository
 
 1. Open SourceTree and click the + symbol in top menu bar or choose `FILE -> Clone/New` in the tool bar.&#x20;
