@@ -10,7 +10,7 @@ In week 1, we started a server on our local machines and opened the code which w
 
 1. Open CommandBox and navigate to the `ongoingWork` folder in your class project. If you followed the model in [Folder Structure](../week-1-software-and-setup/folder-structure.md), this will be `Sites\UML\WebDataImplementation.`&#x20;
 2. CommandBox runs "on top of" an underlying terminal whether that is Terminal in the MAC or the CommandLine in Windows. As a result, we can send commands to that underlying terminal right from CommandBox. Type `!code .` and press enter. VSCode should open to your project.
-3. Back in CommandBox, in that same folder, check the status of the server by typing server status. If to server is already running, skip step 4.&#x20;
-4. type `server start`. After a moment, the server should start and your browser open.&#x20;
+3. Back in CommandBox, in that same folder, check the status of the server by typing `server status`. If the server is already running, skip step 4.&#x20;
+4. Type `server start`. After a moment, the server should start and your browser open.&#x20;
 5. If your browser does not open, type `server open`.&#x20;
 
