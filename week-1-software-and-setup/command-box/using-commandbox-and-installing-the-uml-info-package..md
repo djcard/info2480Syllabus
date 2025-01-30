@@ -22,17 +22,18 @@ Package are collections of files and folders that are part of a website or progr
 ## **Committing these changes to Github.com**
 
 1. Navigate back to your class project in SourceTree.&#x20;
-2.  **IMPORTANT**: In the Unstaged files area, right click on the file .env and choose Ignore&#x20;
+2. Click on File Status in the left hand folder.&#x20;
+3.  **IMPORTANT**: In the Unstaged files area, right click on the file .env and choose Ignore&#x20;
 
     <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     A .env file is a way of storing secure passwords locally on your machine and is NOT meant to be checked into a repo.&#x20;
-3. Once you have ignored .env, a new file called .gitignore will be created and .env will be added to it.&#x20;
-4.  Click on Stage All  to move all the files to the Staged files area.&#x20;
+4. Once you have ignored .env, a new file called .gitignore will be created and .env will be added to it.&#x20;
+5.  Click on Stage All  to move all the files to the Staged files area.&#x20;
 
     <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-5. Add a comment ( i.e. Class Files Commit ) and Commit the files.&#x20;
-6.  Click on PUSH to push the files to Github.
+6. Add a comment ( i.e. Class Files Commit ) and Commit the files.&#x20;
+7.  Click on PUSH to push the files to Github.
 
     <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
