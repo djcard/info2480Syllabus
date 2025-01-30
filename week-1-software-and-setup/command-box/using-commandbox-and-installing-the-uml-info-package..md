@@ -23,7 +23,7 @@ Package are collections of files and folders that are part of a website or progr
 
 1. Navigate back to your class project in SourceTree.&#x20;
 2. Click on File Status in the left hand folder.&#x20;
-3.  **IMPORTANT**: In the Unstaged files area, right click on the file .env and choose Ignore&#x20;
+3.  **IMPORTANT**: In the Unstaged files area, right click on the file .env and choose Ignore. In the popup choose `ignore exact filename(s)` and click OK.
 
     <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
