@@ -6,9 +6,7 @@ description: >-
 
 # Making a Static Website Dynamic
 
-Folder: Create this assignment in the “myFinalProject” folder
-
-1. Break the index.html file from the basewebSite folder into several smaller files. The file can be broken up based on it’s logical components (i.e. the navigation bar, the header, the genre nav etc.)
+1. Break the index.html file into several smaller files. The file can be broken up based on it’s logical components (i.e. the navigation bar, the header, the genre nav etc.)
 2. Do any customizations you wish to the page such as color, shading, simple formatting etc. You do not need to go overboard but make the page your own in a small way.
 
 ## Introduction
