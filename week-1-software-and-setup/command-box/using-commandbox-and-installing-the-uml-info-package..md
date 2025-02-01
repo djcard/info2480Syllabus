@@ -35,7 +35,7 @@ Package are collections of files and folders that are part of a website or progr
 6. Add a comment ( i.e. Class Files Commit ) and Commit the files.&#x20;
 7.  Click on PUSH to push the files to Github.
 
-    <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
