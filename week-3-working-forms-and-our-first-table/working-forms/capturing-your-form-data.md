@@ -17,3 +17,8 @@ Previously, we were focused on making sure our form was visually appearing the w
        <form action="#cgi.script_name#" method="POST">
        ```
 4. In addition to the type and other properties your input tags have, each of them should have a `name` property. \<input type="text" name="title" ...... />
+5.  At the very top of your page put the line of code&#x20;
+
+    ```boxlang
+    <bx:dump var="#form#" />
+    ```
