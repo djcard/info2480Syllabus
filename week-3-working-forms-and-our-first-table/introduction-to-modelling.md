@@ -1,18 +1,14 @@
+---
+hidden: true
+---
+
 # Introduction To Modelling
 
 ## Introduction
 
 How did the Excel exercise go? You needed to take 10 books and figure out how to represent them in an Excel table. Easy? Probably. I would imagine that your Excel file looked something like this:
 
-<div>
-
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8905ef24-5e5c-4eb5-8556-db0c64486c44/Untitled.png" alt="">
-
- 
-
-<figure><img src="../.gitbook/assets/Excel.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8905ef24-5e5c-4eb5-8556-db0c64486c44/Untitled.png" alt=""> <figure><img src="../.gitbook/assets/Excel.png" alt=""><figcaption></figcaption></figure></div>
 
 Each column has a header which describes the information in that column. Each book has its own row. If you want to find the publication year for “The Invention of Wings”, you look in the Title column for “The Invention of Wings” and then go across to the Year column and see 2014.
 
