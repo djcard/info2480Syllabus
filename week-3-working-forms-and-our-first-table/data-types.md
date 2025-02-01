@@ -41,7 +41,7 @@ An integer consists of a whole number with no fractions, decimal places, letters
 
 The point here is not the specific numbers that each type can store, although that does become important in planning a project if your data could potentially get to numbers that big or small. The point is that when you see these data types listed, you recognize them for what they are – whole numbers of various sizes.
 
-Why are there limits put on the size of the numbers you can put into a database? There are a few reasons but the main two are the cost of storing that data and the time it takes for a database to wade through the data needed to find what it is looking for . Originally, hard drives were very expensive which made storing data very expensive. Therefore, it made sense to allow just enough space for the number needed. For example, it’s a waste to tell a database to expect a number 10 digits long when it is meant to store someone’s age which, at most, has 3 digits. Storage is much much cheaper now, but the databases can get much much much much larger. When they are this large, there are not only storage costs to think about but the cost it takes for a processor to run the applications that are using that data.
+Why are there limits put on the size of the numbers you can put into a database? There are a few reasons but the main two are the cost of storing that data and the time it takes for a database to wade through the data needed to find what it is looking for . Originally, hard drives were very expensive which made storing data very expensive. Therefore, it made sense to allow just enough space for the number needed. For example, it’s a waste to tell a database to expect a number 10 digits long when it is meant to store someone’s age which, at most, is a 3 digit positive number. Storage is much much cheaper now, but the databases can get much much much much larger. When they are this large, there are not only storage costs to think about but the cost it takes for a processor to run the applications that are using that data.
 
 ### Floats
 
@@ -53,26 +53,33 @@ Booleans, also called bits (there they are again) have two values – true or fa
 
 ### Strings
 
-Strings, also called literals, are a collection of any combination of letters, numbers or symbols. It doesn’t matter if they are words, all numbers, all letters, gibberish, HTML, characters which make up HTML, a scripting language or the entire works of Shakespeare. In a programming language, or even HTML, strings are wrapped in quotes, either double (“) or single (‘). For example if you see: name=”Stephen”, that means that the property “name” is a string with the value of “Stephen”. Stephen is not a name for anything else, it is the data with which we are dealing.
+Strings, also called literals, are a collection of any combination of letters, numbers or symbols. It doesn’t matter if they are words, all numbers, all letters, gibberish, HTML, characters which make up HTML, a scripting language or the entire works of Shakespeare. In a programming language, or even HTML, strings are wrapped in quotes, either double (“) or single (‘). For example if you see: name=”Stephen”, that means that the property “name” is a string with the value of “Stephen”.&#x20;
 
 Of course there are subtypes for this as well. In this case, the differences are a combination of size and the format in which the data is stored.
 
 The two main formats are:
 
 * ASCII – one of the first coding systems that has 128 characters including English lowercase and capital letters, numbers and some special characters such as &,\*,@,!,), and #
-* Unicode – This format allows over 110,000 characters in many different scripts. A script is a format of writing such as the Latin Script (i.e. the character set in English), Arabic Script and 121 others. (for more information on this see ([http://en.wikipedia.org/wiki/Script\_(Unicode)](http://en.wikipedia.org/wiki/Script\_\(Unicode\))))
+* Unicode – This format allows over 110,000 characters in many different scripts. A script is a format of writing such as the Latin Script (i.e. the character set in English), Arabic Script and 121 others. (for more information on this see ([http://en.wikipedia.org/wiki/Script\_(Unicode)](http://en.wikipedia.org/wiki/Script_\(Unicode\))))
 
 Some of the subtypes of strings which exist are:
 
-Char(x) Not Unicode Fixed Varchar(x) Not Unicode Variable Varchar(max) Not Unicode Variable nChar(x) Unicode Fixed nVarchar(x) Unicode Variable nVarchar(max) Unicode Variable
 
 
+| Name          | Ascii / Unicode | Length                                    |
+| ------------- | --------------- | ----------------------------------------- |
+| Char(x)       | Ascii           | Fixed at x characters                     |
+| Varchar(x)    | Ascii           | From 0 to x characters                    |
+| Varchar(max)  | Ascii           | From 0 to the upper limit of the database |
+| nChar(x)      | Unicode         | Fixed at x characters                     |
+| nVarchar(x)   | Unicode         | From 0 to x characters                    |
+| nVarchar(max) | Unicode         | From 0 to the upper limit of the database |
 
 For this class, we’re going to mostly use nvarchar(x). The x is a number that defines how long it is going to be. Therefore, nvarchar(25) is a Unicode string which is of variable length and can be up to 25 characters long.
 
 ### Dates
 
-Dates refer to a particular point in time. Depending on the programming language being used, a dae might be considered a complex data type since it can be broken down into sub parts. The parts of a date are:
+Dates refer to a particular point in time. Depending on the programming language being used, a date might be considered a complex data type since it can be broken down into sub parts. The parts of a date are:
 
 * Year
 * Month
@@ -112,7 +119,7 @@ For some interesting additional insights into time zones, check out this youtube
 
 **GMT** – This stands for Greenwich Mean Time. When time zones were being created, there needed to be a starting point. This ended up being the Royal Observatory in Greenwich England. All of the other time zones are then calculated based on that spot. For example, Eastern Time is normally 5 hours behind GMT and is therefore considered -5GMT. During the summer is it -4 because of daylight savings.
 
-**UTC** – It turns out that the way GMT was calculated wasn’t accurate enough for computers and more precise measurements since it allowed for a swing of almost 15 minutes depending on different times of the year (hence the “mean” in mean time. It was an average). On January 1, 1970 a coordinated switch to UTC occurred. UTC or Coordinated Universal Time is the same concept as GMT but more exact with the same time being coordinated with atomic clocks all over the world.
+**UTC** – It turns out that the way GMT was calculated wasn’t accurate enough for computers and more precise measurements since it allowed for a swing of almost 15 minutes depending on different times of the year (hence the “mean” in mean time. It was an average). On January 1, 1970 a coordinated switch to UTC occurred. UTC or Coordinated Universal Time is the same concept as GMT but more exact with the same time being coordinated with atomic clocks all over the world. UTC does not take into account leap seconds ( watch the video above to learn more about those ).
 
 **Epoch Time** – An Epoch is the moment that something starts. For example, the epoch of UTC was midnight, January 1, 1970. Epoch time is a measurement from that moment until now, whenever NOW is. Usually it’s in seconds but sometimes in milliseconds. Why? Computers like numbers. Therefore, it’s easier to convert to a standard number to compare or add dates than it is to remember a combination of base 24 (hours in a day), base 60 (minutes in an hour or seconds in a minute), base 365 (days in a year), or base 7 (days in a week) numbers.
 
