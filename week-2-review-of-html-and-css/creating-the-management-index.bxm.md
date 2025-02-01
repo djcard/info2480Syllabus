@@ -12,7 +12,7 @@ Later on in the course we are going to examine the rationale as to why our site 
 2. In the browser navigate to that site by going to /bookstore/manage
 3.  You will see a large missingInclude error message. This is because the page is trying to include a file called header.bxm from the same folder but that file doesn't exist. Change that reference in index.bxm to ../public/header.bxm and reload the page. You will get another error but you should see the header at the top of the page.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 4. Our management page is going to have a different navigation system than the public area so, for now, copy the horizontalNav.bxm file from the /public folder into the /manage folder. After doing that, in /manage/horizontalNav.bxm, change the text `Store Information` to `Manage Articles.` Reload your browser and make sure you can see the Manage Articles navigation in the top nav.&#x20;

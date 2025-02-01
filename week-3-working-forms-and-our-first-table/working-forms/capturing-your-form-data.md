@@ -22,3 +22,9 @@ Previously, we were focused on making sure our form was visually appearing the w
     ```boxlang
     <bx:dump var="#form#" />
     ```
+6.  Enter some data into your form and submit it. You should see you information appear at the top of the page like this:&#x20;
+
+    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+7. If you don't, make sure you followed all the directions on this page including wrapping the form in \<bx:output> \</bx:output>, putting a name property on all of your \<input /> tags and putting the \<bx:dump> at the top of the page.&#x20;
