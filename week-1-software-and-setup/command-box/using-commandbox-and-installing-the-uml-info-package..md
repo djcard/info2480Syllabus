@@ -25,7 +25,7 @@ Package are collections of files and folders that are part of a website or progr
 2. Click on File Status in the left hand folder.&#x20;
 3.  **IMPORTANT**: In the Unstaged files area, right click on the file .env and choose Ignore. In the popup choose `ignore exact filename(s)` and click OK.
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     A .env file is a way of storing secure passwords locally on your machine and is NOT meant to be checked into a repo.&#x20;
 4. Once you have ignored .env, a new file called .gitignore will be created and .env will be added to it.&#x20;

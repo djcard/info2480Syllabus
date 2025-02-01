@@ -3,7 +3,7 @@
 1. Go to the home page in MySQL Workbench
 2.  Click on the plus sign by MySQL Connections&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 3. Enter UML in the Connection Name
 4. Enter uml2480-mysql.cyqisqc1fx3i.us-west-2.rds.amazonaws.com in the Hostname
 5. Enter the Username you received for this class in the Username box
