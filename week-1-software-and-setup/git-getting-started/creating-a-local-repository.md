@@ -32,7 +32,7 @@ Once you have installed SourceTree (or other client) you are ready to experiment
 8. At the bottom of the screen you will see a text box with the button COMMIT underneath it. In the text area, type "INITIAL COMMIT". It is customary to put a comment describing the work you did for each commit.&#x20;
 9. Click Commit. This will put your file into the git repository in that folder. It is now in the version control system and managed by git.&#x20;
 10. Look in the left menu panel under BRANCHES and notice that one called "master" has been created. It is in bold which means that is the branch which is currently checked out so all the files, no matter what program in which you open then, will be editing the files in this branch. \
-    ![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
+    ![](<../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 
 

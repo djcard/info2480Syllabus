@@ -31,7 +31,7 @@ Package are collections of files and folders that are part of a website or progr
 4. Once you have ignored .env, a new file called .gitignore will be created and .env will be added to it.&#x20;
 5.  Click on Stage All  to move all the files to the Staged files area.&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 6. Add a comment ( i.e. Class Files Commit ) and Commit the files.&#x20;
 7.  Click on PUSH to push the files to Github.
 
