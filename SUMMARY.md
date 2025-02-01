@@ -70,7 +70,6 @@
   * [Data Types](week-3-working-forms-and-our-first-table/data-types.md)
   * [Case Types and Naming Conventions](week-3-working-forms-and-our-first-table/case-types-and-naming-conventions.md)
   * [Database Tools and Your First DB](week-3-working-forms-and-our-first-table/database-tools-and-your-first-db/README.md)
-    * [MSSQL Studio](week-3-working-forms-and-our-first-table/database-tools-and-your-first-db/mssql-studio.md)
     * [Datagrip](week-3-working-forms-and-our-first-table/database-tools-and-your-first-db/datagrip.md)
     * [Installing MySql WorkBench](week-3-working-forms-and-our-first-table/database-tools-and-your-first-db/installing-mysql-workbench.md)
     * [Connecting to your MySQL database](week-3-working-forms-and-our-first-table/database-tools-and-your-first-db/connecting-to-your-mysql-database.md)

@@ -13,7 +13,7 @@ description: >-
 5. Enter a commit message and commit it.&#x20;
 6.  Click on the PUSH icon at the top of the page&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
