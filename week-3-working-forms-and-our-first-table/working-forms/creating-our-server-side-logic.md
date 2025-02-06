@@ -41,7 +41,7 @@ Since we want to follow good separation of concerns, we are going to put all of 
    `class {`\
    \
    `}`
-3.  `Now we are going to create a function inside that class. A function is just a collection of code that has a name and can be called whenever it is needed. We'll go more into functions next week but for now, just follow the code here. We're going to name our function saveArticle.` \
+3.  Now we are going to create a function inside that class. A function is just a collection of code that has a name and can be called whenever it is needed. We'll go more into functions next week but for now, just follow the code here. We're going to name our function `saveArticle`. \
 
 
     ```boxlang
