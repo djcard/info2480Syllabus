@@ -8,7 +8,7 @@ When designing a database, you need to define what columns you are going to have
 * Description
 * Active
 
-The first table we are going to create is going to have columns for those two pieces of information as well as the date the article was written and whether or not it is active.&#x20;
+The first table we are going to create is going to have columns for those three pieces of information as well as the date the article was written and whether or not it is active.&#x20;
 
 ## Steps to Creating the Table
 
