@@ -2,10 +2,11 @@
 
 Data Tables look very similar to spreadsheets in that the table can be visualized in rows and columns. Each row is an individual item and each column is a piece of information about that item.&#x20;
 
-When designing a database, you need to define what columns you are going to have. For our purposes here, we are going to make a data table that is going to hold articles or other little "blurbs" about our bookstore.  What form elements when into the form we created in [Creating An HTML Form with Bootstrap](../../week-2-review-of-html-and-css/creating-an-html-form-with-bootstrap.md)?  There were two:
+When designing a database, you need to define what columns you are going to have. For our purposes here, we are going to make a data table that is going to hold articles or other little "blurbs" about our bookstore.  What form elements when into the form we created in [Creating An HTML Form with Bootstrap](../../week-2-review-of-html-and-css/creating-an-html-form-with-bootstrap.md)?  There were three:
 
 * Title
 * Description
+* Active
 
 The first table we are going to create is going to have columns for those two pieces of information as well as the date the article was written and whether or not it is active.&#x20;
 
