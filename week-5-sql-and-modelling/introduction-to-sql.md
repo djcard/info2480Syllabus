@@ -4,8 +4,6 @@ What is a server language?
 
 What is a scripting server?
 
-Syntax (Tag vs Script)
-
 Variables, formatting vs value
 
 ### Background
@@ -210,6 +208,6 @@ will sort the books, first by author, then by year, then all the titles of the b
 
 There is much more to SQL but this is enough to get us started for now. Last week we looked at other SQL code that would create and alter tables. As with every other language, no one memorizes every syntax of the entire language. Instead, learn the basics, and know where you can reference the rest. If you use the syntax enough, you’ll learn the fine points by doing.
 
-**Exercise**: Go to the page [https://comweb.uml.edu/courseItems/sqltest.cfm](https://comweb.uml.edu/courseItems/sqltest.cfm). Follow the directions on that page. There are 9 statements in normal language listed. Translate them into SQL syntax and submit them by typing the SQL into the text area and pressing “Enter SQL”.
+**Exercise**: In your local sites, there is a link on the index.bxm page to Learn SQL. Follow the directions on that page. There are 9 statements in normal language listed. Translate them into SQL syntax and submit them by typing the SQL into the text area and pressing “Enter SQL”.
 
-A correct answer will add a word or multiple words into the div with the label “Final Answer”. Go in order. The answer will be a 100% readable sentence. When you have completed the assignment, go to Blackboard, take the SQL Query Test and paste your 100% readable sentence in the space provided.
+A correct answer will add a word or multiple words into the div with the label “Final Answer”. Go in order. The answer will be a 100% readable sentence. When you have completed the assignment, message me your 100% readable sentence.

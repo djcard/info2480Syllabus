@@ -2,9 +2,9 @@
 
 ### Background
 
-From reading the “Beginning to Plan” document, it should be clear now that we are going to have two different areas of the site that we are creating. One is for the public and will be where most of the users of the site will browse and purchase books. The other is for the management of the bookstore and will be for the owners and employees of the bookstore and the bookstore website to perform administrative functions that will help the site (and company) run effectively and well.
+From reading the [Our Project And Its Users](../week-5-sql-and-modelling/our-project-and-its-users.md) document, it should be clear now that we are going to have two different areas of the site that we are creating. One is for the public and will be where most of the users of the site will browse and purchase books. The other is for the management of the bookstore and will be for the owners and employees of the bookstore and the bookstore website to perform administrative functions that will help the site (and company) run effectively and well.
 
-Folder: /username/myFinalProject/management/
+Folder: /bookstore/management/
 
 ### Schema Check
 
