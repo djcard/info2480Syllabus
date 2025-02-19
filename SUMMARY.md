@@ -100,6 +100,7 @@
   * [Introduction to SQL](week-5-sql-and-modelling/introduction-to-sql.md)
   * [Completing our Articles page.](week-5-sql-and-modelling/completing-our-articles-page./README.md)
     * [Adapting manageArticles.bxm to display existing articles in the database](week-5-sql-and-modelling/completing-our-articles-page./adapting-managearticles.bxm-to-display-existing-articles-in-the-database.md)
+    * [Completing ManageArticles.bxm to Edit Existing Articles.](week-5-sql-and-modelling/completing-our-articles-page./completing-managearticles.bxm-to-edit-existing-articles..md)
 * [Week 6: More on Forms](weekly-breakdown/week-6-more-on-forms.md)
   * [Expanding And Styling The Main Form](week-6-more-on-forms/expanding-and-styling-the-main-form.md)
   * [Adding to our Management Tool](week-6-more-on-forms/adding-to-our-management-tool.md)
