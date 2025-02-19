@@ -99,6 +99,7 @@
 * [Week 5: SQL and Modelling](week-5-sql-and-modelling/README.md)
   * [Our Project And Its Users](week-5-sql-and-modelling/our-project-and-its-users.md)
   * [Introduction to SQL](week-5-sql-and-modelling/introduction-to-sql.md)
+  * [Completing our Articles page.](week-5-sql-and-modelling/completing-our-articles-page..md)
 * [Week 6: More on Forms](weekly-breakdown/week-6-more-on-forms.md)
   * [Expanding And Styling The Main Form](week-6-more-on-forms/expanding-and-styling-the-main-form.md)
   * [Adding to our Management Tool](week-6-more-on-forms/adding-to-our-management-tool.md)
