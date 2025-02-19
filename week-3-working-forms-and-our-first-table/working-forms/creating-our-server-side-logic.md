@@ -17,7 +17,7 @@ Now that we have a working form, we can use the form data and save it to our dat
 
 You might have noticed that the green dump appears on your manageArticles.bxm page even where there is no data submitted. This is because all data submitted in a form is collected and saved in a special variable called "FORM". That variable exists whether a form has been submitted or not.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 To tell if our form as been submitted or not, we can add an IF statment and put some instructions inside of that. These instruction will run only IF the conditions in the statement are fulfilled.&#x20;
 
@@ -83,7 +83,7 @@ The last step is to tell our form to send our submitted data to our articles.bx 
 1. In manageArticles.bxm, edit the if statement at the top of the page to this: \
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 We are going to go over in much more detail what all of this code means next week but for now, let's see if we can get this working.&#x20;
 
