@@ -110,6 +110,7 @@
   * [Expanding And Styling The Main Form](week-6-more-on-forms/expanding-and-styling-the-main-form.md)
   * [Adding to our Management Tool](week-6-more-on-forms/adding-to-our-management-tool.md)
   * [Adding Search To Our Front Index Page](week-6-more-on-forms/adding-search-to-our-front-index-page.md)
+  * [Creating The Manage Books Page](week-6-more-on-forms/creating-the-manage-books-page.md)
 * [Week 7: Creating a Public Search Page](weekly-breakdown/week-7-creating-a-public-search-page.md)
   * [Adding Search To Our Management Page](week-7-creating-a-public-search-page/adding-search-to-our-management-page.md)
   * [Adding WYSIWYG Capabilities](week-7-creating-a-public-search-page/adding-wysiwyg-capabilities.md)
