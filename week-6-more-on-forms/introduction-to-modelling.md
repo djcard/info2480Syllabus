@@ -6,9 +6,20 @@ hidden: true
 
 ## Introduction
 
-How did the Excel exercise go? You needed to take 10 books and figure out how to represent them in an Excel table. Easy? Probably. I would imagine that your Excel file looked something like this:
+So far, we have created
 
-<div><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8905ef24-5e5c-4eb5-8556-db0c64486c44/Untitled.png" alt=""> <figure><img src="../.gitbook/assets/Excel.png" alt=""><figcaption></figcaption></figure></div>
+* A data table to store information about articles about our website
+* An admin page which allows us to create and edit articles
+* A navigation bar which allows the user to choose which article they wish to read
+* Code which displays the article information such as the title and body to be read.
+
+This means that we have created a web app. Congratulations! We aren't done with our bookstore but, for all intents and purposes, you have gone through the entire cycle to create working components of an application.&#x20;
+
+We now turn our attention to the "book" part of our bookstore. Just like for the articles, we need to create our data tables first which begs the question of what our tables and fields are going to be
+
+Since data tables can look and feel like a spreadsheet and a spreadsheet allows us to create and edit column titles easily, let's use a spreadsheet to create a mock up of our tables. If we were going to create a spreadsheet containing information about the books in our bookstore it probably look something like this:
+
+<figure><img src="../.gitbook/assets/Excel.png" alt=""><figcaption></figcaption></figure>
 
 Each column has a header which describes the information in that column. Each book has its own row. If you want to find the publication year for “The Invention of Wings”, you look in the Title column for “The Invention of Wings” and then go across to the Year column and see 2014.
 
@@ -90,19 +101,19 @@ This leaves us with 4 models as part of our larger picture:
 
 Ok, we have four models at this point: Book, Person, Role, and Publishing Company. Let’s put each of them on their own Excel Page. Like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dbff66e5-31f9-49ad-a1e9-a79f52dbe887/Untitled.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Figure 1: Books
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8d16e8e5-0d91-452b-a87b-58bb5bf212ae/Untitled.png)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Figure 2: Publishing Companies
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb3090a8-1d90-4f02-9587-1befb9e6f12d/Untitled.png)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Figure 3: People
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80808989-8494-4fca-8048-a654f29004cb/Untitled.png)
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Figure 4: Roles
 
@@ -114,25 +125,19 @@ Does this look like a step backward? At least before we knew which book had whic
 
 Stay tuned. Almost done. How do we tie the different sheets together? First let’s look at the sheets one at a time.
 
-On the books page, is there a way to identify each row uniquely? Meaning, that if I want to find a particular book, I know that if I search for THIS, I will find that book and ONLY that book. Obviously, it isn’t the binding since there are literally millions of books which are in paperback. Ditto for the year, page numbers, weight and language. They aren’t unique. That leaves us with the title and the ISBN. Interestingly enough, many books are published with the same titles as other books which, if you think about it, makes sense after the length of time that there have been books in print (for more reading on this topic, purely as a tangent: [http://flavorwire.com/376237/the-doubles-10-pairs-of-great-books-with-the-same-titles/](http://flavorwire.com/376237/the-doubles-10-pairs-of-great-books-with-the-same-titles/)). That leaves us with the ISBN and ISBN-13 as a unique identifier for a publication. This makes sense since that is exactly why they were designed in the first place. With the rise of computers and, more specifically, bar codes, it became important to have a quick way of tracking publishing and inventory data. This initiative was led by the British Bookseller WHSmith back in the mid-1960s. If you want to identify an exact book publication, including what binding and edition it is, look for it by the ISBN. The ISBN-13 is the same number with 978 put in front of it. For trivia purposes, this is to make the ISBN barcodes work within the larger barcode system of UPC or Universal Product Code. Everything has a barcode these days and they are tracked by their UPCs. The first three digits of a UPC code refer to a country. The 978 in an ISBN-13 signifies that this UPC is part of “bookland” and the rest of the numbers refer to an ISBN.
+On the books page, is there a way to identify each row uniquely? Meaning, that if I want to find a particular book, I know that if I search for THIS, I will find that book and ONLY that book. Obviously, it isn’t the binding since there are literally millions of books which are in paperback. Ditto for the year, page numbers, weight and language. They aren’t unique. That leaves us with the title and the ISBN. Interestingly enough, many books are published with the same titles as other books which, if you think about it, makes sense after the length of time that there have been books in print (for more reading on this topic, purely as a tangent: [http://flavorwire.com/376237/the-doubles-10-pairs-of-great-books-with-the-same-titles/](http://flavorwire.com/376237/the-doubles-10-pairs-of-great-books-with-the-same-titles/)). That leaves us with the ISBN and ISBN-13 as a unique identifier for a publication. This makes sense since that is exactly why they were designed in the first place.&#x20;
+
+With the rise of computers and, more specifically, bar codes, it became important to have a quick way of tracking publishing and inventory data. This initiative was led by the British Bookseller WHSmith back in the mid-1960s. If you want to identify an exact book publication, including what binding and edition it is, look for it by the ISBN. The ISBN-13 is the same number with 978 put in front of it. For trivia purposes, this is to make the ISBN barcodes work within the larger barcode system of UPC or Universal Product Code. Everything has a barcode these days and they are tracked by their UPCs. The first three digits of a UPC code refer to a country. The 978 in an ISBN-13 signifies that this UPC is part of “bookland” and the rest of the numbers refer to an ISBN.
 
 On the publisher’s page, is there a way to identify each publisher uniquely? Is there an ISBN equivalent for publishers? Kind of but it’s fairly confusing and, for now, not important so we’re going to punt on using a pre-defined identifier like an ISBN. What’s important is that we have a way to identify a certain row uniquely IN OUR DATABASE and we can do that by simply adding a column to our sheet. We can call it anything but, conventionally, it’s called something like “ID”. We don’t need to get fancy. All we need to do it put something in it that is unique. Using integers which ascend in order seems to make sense. When we get more advanced in our thinking, we might decide that ascending integers aren’t actually the best identifier although they are used very often. For now, however, they suit our purposes.
 
 Now our Excel Sheet looks like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df9bd7b0-12a0-4411-9a52-6d1f369db546/Untitled.png)
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Figure 5: Publishers with the new ID column
 
-AH! Why add a new column? Couldn’t we just go by the line number on the left of the screen? They pretty much match anyway. Well, not really. What if we want to browse through the publishers and sort them alphabetically? Suddenly we have this scenario:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e48f0869-e508-40d6-86ec-40c3694e6eda/Untitled.png)
-
-Figure 6: Publishers sorted alphabetically. Notice how the ID column sorted as well but the row numbers stayed the same.
-
-The row numbers (all the way to the left) stayed in order but the rows all rearranged themselves. Fortunately, the ID row rearranged as well so we can still use them to find each row uniquely. If you feel compelled, compare figure 5 and figure 6 and make sure. I’ll wait.
-
-Back? Welcome. Did it work? Excellent.
+AH! Why add a new column? Couldn’t we just go by the line number on the left of the screen? They pretty much match anyway. Well, not really. What if we want to browse through the publishers and sort them alphabetically? The row numbers would stay in order but the order of the books would change.  Fortunately, the ID row would sort as well so we can still use them to find each row uniquely.&#x20;
 
 When there is a column that is used to make each row unique, like the ISBN or the ID, we call that the “Primary Key”. It is the thing that makes each row in the set completely unique which means we can go to the last section for this reading. Primary Keys can be made up of one or more columns.
 
@@ -140,7 +145,7 @@ When there is a column that is used to make each row unique, like the ISBN or th
 
 So where does that get us? We now have a way to connect the two sheets. We take the primary key from the publisher sheet and put it in the corresponding row in the book sheet. Like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cde907e-541c-4814-aeb7-e2ea77a572d0/Untitled.png)
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Figure 7: Books with the corresponding Publisher key populated
 
@@ -150,39 +155,13 @@ Why is this better? Two Reasons.
 
 ### Reason 1: Less Typing and Smaller File Sizes
 
-Even if we wanted to add the extra columns of city, state and wouldn’t this have been just as good:
+If we included the fields for the publisher in the same table as the book, we would add 6 more fields. This is for each book that publisher has in its inventory. Since there have been approximately 158,464,880 books which have been published in the world as of 2023 ( [https://isbndb.com/blog/how-many-books-are-in-the-world](https://isbndb.com/blog/how-many-books-are-in-the-world) ), this means we could end up with nearly a billion additional pieces of information, all of which would be duplicated.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3086443c-a362-4eff-97c8-263ffc88b73d/Untitled.png)
-
-Figure 8: No really! Isn't this just as good?
-
-With this small sample, perhaps. But what happens when we add more books by the same publisher? Suddenly we have this:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0997a01b-252d-4f4f-9d7d-21634b38f219/Untitled.png)
-
-Figure 9: Adding more books by the same publisher when the publisher is on each line. Ugh!
-
-We’ve only added 6 more books and we’ve had to type 18 more pieces of information into the spreadsheet. What a hassle! Besides the hassle (and time and effort and potentially carpel tunnel syndrome inducing labor), there is also the issue that the size of the file is also going to get quite large very quickly. What a waste, especially when all of that data is unnecessary when we can just type a number into 1 column and be done with it. Much easier and, ultimately, just as effective. What if the publisher changes phone number or address? If we have two models, we change it in 1 place and 1 place only. By trying to cram everything into one model, we would have to type the new address for each book we have in our database. Ugh!
+&#x20;What a hassle! Besides the hassle (and time and effort and potentially carpel tunnel syndrome inducing labor), there is also the issue that the size of the file is also going to get quite large very quickly. What a waste, especially when all of that data is unnecessary when we can just type a number into 1 column and be done with it. Much easier and, ultimately, just as effective. What if the publisher changes phone number or address? If we have two models, we change it in 1 place and 1 place only. By trying to cram everything into one model, we would have to type the new address for each book we have in our database. Ugh!
 
 ### Reason 2: Much Easier to Change our Data Model Later
 
-Rarely do models stay the same forever after they are created. The needs of the app change, organizations change, and new features get added. Basically, ya know, life. So what happens if we keep going with everything on the same line and then decide we need to add a column like a website? We add the column and then we have 10,000 rows with a blank column on the end of it that we need to populate. Again, what a great deal of work.
-
-What if we turn it around and, instead of having the books be the main part of the model, we have the publisher and add columns for the books. If we have 1 book per publisher, that would look like this:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f729c7ae-f759-49b8-82bf-de912cf5f5dd/Untitled.png)
-
-Figure 10: 1 line model with publishers being the main part
-
-Then if we add another book we get this:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f617c3d-f874-4ba7-b2f3-bef5e2d53101/Untitled.png)
-
-Figure 11: Adding another book on the publisher. At this rate, if the publisher has enough books we're going to have an Excel spreadsheet going up to language-1003254234
-
-Besides being very annoying to scroll sideways so much, in what column do we look for the book title we want? Title,Title1,Title2,Title3,Title4…….Title-1003244234?
-
-We have to add 7 columns every time we published a book and if we ever wanted to start keeping track of a new part of the book, say the type of paper used to publish it, we need to go back through the file and, every 7th column we add a new “papertype-#” column and do so about 1003244234 times.
+Rarely do models stay the same forever after they are created. The needs of the app change, organizations change, and new features get added. Basically, ya know, life. So what happens if we keep going with everything on the same line and then decide we need to add a column like a website? We add the column and then we have thousands or millions of rows with a blank column on the end of it that we need to populate. Again, what a great deal of work.
 
 Much easier to have two models and be done with it.
 
@@ -198,9 +177,7 @@ It’s possible to talk about the kind of relationship that two data models have
 
 At the beginning of this document we talked about an ideal something and a tangible thing. When we have defined all of the properties we are going to use in our model we have actually defined a **class**. When we actually assign values to those properties it is called **instantiating** and the result is an **object**. Therefore, an object is a specific instantiation of a class. The use of the word class might be confusing since we’ve already ran across the world “class” as being used as a property of an HTML element and only relating to the style that is defined in the CSS area of the page. However, the context in which the word is being used should indicate which one is being used.
 
-To help in communication, we can draw classes using a Class Diagram. This is part of a set of diagrams which are collectively called UML (Universal Modeling Language) diagrams. We aren’t going to go very deep into UML Diagrams but suffice it to that we can make a diagram of our new “book” class that might look like this:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38eb3d4a-76aa-4880-8534-f11c478303a5/Untitled.png)
+To help in communication, we can draw classes using a Class Diagram. This is part of a set of diagrams which are collectively called UML (Universal Modeling Language) diagrams.&#x20;
 
 ## Conclusion
 

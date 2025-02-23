@@ -54,6 +54,7 @@ Turning to the public side of things, we need to adapt our horizontalNav.bxm fil
      </bx:output>
     ```
 4. Open your public facing page ( /bookstore/public/index.bxm ). Do your active acticles appear in the top nav bar? If you go back to the management page, edit an article and make it active or inactive, does the corresponding article appear or disappear on the public page?
+5. If there are any other menu items you want to remove or design changes, feel free to make them.&#x20;
 
 ## Using "t"
 
@@ -72,7 +73,7 @@ You might have noticed that, while we can click on the title of an article, the 
     ```
 4. Now need to create a file called "articles.bxm". Create that and simply put "Here are articles". Visit the /bookstore/public/index.bxm page and click on one of the articles in the navbar. Does your new page appear?
 
-Creating Articles.bxm.
+## Creating Articles.bxm
 
 1. At this point you have all the tools you need to create /bookstore/public/articles.bxm using the other pages as example.&#x20;
    1. Create a variable creates an instance of bookstore.common.articles.

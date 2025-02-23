@@ -13,7 +13,7 @@ description: >-
 5. Enter a commit message and commit it.&#x20;
 6.  Click on the PUSH icon at the top of the page&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -27,7 +27,7 @@ IF YOU RUN IN TO SECURITY ISSUES CONTINUE ON
 6. Give your Token a name (can be anything - `general access` is perfectly fine)
 7.  Select the checkbox next to repo to select all items in the repo section.&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 8. Click on Generate Token
 9. IMPORTANT: COPY THIS TOKEN TO A FILE AND KEEP IT SAFE. YOU CAN NOT ACCESS IT AGAIN AFTER YOU CLOSE THIS WINDOW AND WILL HAVE TO GENERATE A NEW TOKEN.&#x20;
 10. Back in your project in Source Tree, click on Settings in the upper right
