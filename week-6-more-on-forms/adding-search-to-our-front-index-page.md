@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Adding Search To Our Front Index Page
 
 ## Background

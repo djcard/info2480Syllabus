@@ -13,7 +13,7 @@ Let's make some edits. Remember, we don't want to edit our Master version. We wa
 
 1. In SourceTree, double click on the "master" branch in the left side menu under Branches to ensure it is checked out (it will appear in bold if it is) .
 2. At the top of the screen, click on BRANCH and name your branch "First-Edit" in the window that pops up. \
-   ![](<../../.gitbook/assets/image (3) (1) (1) (1).png>)\
+   ![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)\
    \
    ![](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
 3. Click on Create Branch.

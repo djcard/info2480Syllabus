@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Adding to our Management Tool
 
 ## Background
@@ -32,7 +36,7 @@ In the people table, we originally had the id as an int with the identity proper
 
 However, we’re not going to use an automatically created integer as the primary key on the table. Instead, we are going to use a UUID which stands for Universally Unique ID. This is a little bit of a misnomer since there is no guarantee that it is universally unique. Here is the write up from Wikipedia about UUIDs:
 
-> The number of possible UUIDs is 340,282,366,920,938,463,463,374,607,431,768,211,456 (16^32 or 2^128), or about 3.4 × 10^38. For comparison there are an estimated 10^80 atoms in the observable universe. In [Short Scale](http://en.wikipedia.org/wiki/Long\_and\_short\_scales), it would be read as: "Three hundred forty undecillion, two hundred eighty two decillion, three hundred sixty six nonillion, nine hundred twenty octillion, nine hundred thirty eight septillion, four hundred sixty three sextillion, four hundred sixty three quintillion, three hundred seventy four quadrillion, six hundred seven trillion, four hundred thirty one billion, seven hundred sixty eight million, two hundred eleven thousand, four hundred fifty six."
+> The number of possible UUIDs is 340,282,366,920,938,463,463,374,607,431,768,211,456 (16^32 or 2^128), or about 3.4 × 10^38. For comparison there are an estimated 10^80 atoms in the observable universe. In [Short Scale](http://en.wikipedia.org/wiki/Long_and_short_scales), it would be read as: "Three hundred forty undecillion, two hundred eighty two decillion, three hundred sixty six nonillion, nine hundred twenty octillion, nine hundred thirty eight septillion, four hundred sixty three sextillion, four hundred sixty three quintillion, three hundred seventy four quadrillion, six hundred seven trillion, four hundred thirty one billion, seven hundred sixty eight million, two hundred eleven thousand, four hundred fifty six."
 
 Given that number of possibilities, the chances that the same value will appear in the same collection of data is very very very small. The reason I want to focus on using UUIDs is that more and more, data is being created across multiple devices and multiple computers. If all of the ids created are auto numbered, it is almost a certainty that multiple records will have the same identity numbers for different data across all of these databases. This makes it more difficult to merge data and keep relationships clean while doing so. A UUID makes it a bit easier to do that.
 

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Expanding And Styling The Main Form
 
 ## Background
@@ -49,7 +53,7 @@ For example, the HTML for the weight input would be:
 
 ### Input Types
 
-Note the new type=”number”. What are the different types of input and why are they important? Check out [https://www.w3schools.com/html/html\_form\_input\_types.asp](https://www.w3schools.com/html/html\_form\_input\_types.asp) for more information about input types. In this case, we’ve changed the type for the weight input to “number”. Why?
+Note the new type=”number”. What are the different types of input and why are they important? Check out [https://www.w3schools.com/html/html\_form\_input\_types.asp](https://www.w3schools.com/html/html_form_input_types.asp) for more information about input types. In this case, we’ve changed the type for the weight input to “number”. Why?
 
 ### Adapting the query
 
