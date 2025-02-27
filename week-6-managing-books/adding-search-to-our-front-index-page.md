@@ -1,22 +1,17 @@
----
-hidden: true
----
-
 # Adding Search To Our Front Index Page
 
 ## Background
 
-On the front page of our website is a form which we put into the navigation bar during the first few weeks of class. We are now going to make that form do something. When the user submits the form, the site will open myfinalproject/index.cfm with a results module which will either show the details of the book they chose, tell them that there was were no results if there weren’t any or give them a list of the books that fit the criteria if there are more than one.
+On the front page of our website is a form which we put into the navigation bar during the first few weeks of class. We are now going to make that form do something. When the user submits the form, the site will open `bookstore/public/index.bxm` with a results module which will either show the details of the book they chose, tell them that there was were no results if there weren’t any or give them a list of the books that fit the criteria if there are more than one.
 
 ## Assignment
 
-There are two parts to creating the search functionality to your site. This assignment assumes that you’ve already separated your index page into its component pieces using \<bx:include>. If you haven’t, please do that first. These directions will make more sense if you do. It’s also expected that you adapted the management page to include the image and publisher fields.
+There are two parts to creating the search functionality to your site. This assignment assumes that you’ve already separated your index page into its component pieces using \<bx:include>. If you haven’t, please do that first. These directions will make more sense if you do.&#x20;
 
 There are two parts to this assignment:
 
 1. Adapting the form on the front page of the site
-2. Adapting our index page to use “modules”
-3. Creating a detail page to display the results.
+2. Creating a detail page to display the results.
 
 ### Adapting the Front Form
 
@@ -37,8 +32,8 @@ Done with the front form!
 
 The majority of the results page will be up to your discretion in terms of layout. However, there are a couple of elements to walk through here first.
 
-1. Create a new page in your bookstore/public/ folder called `details.bxm`.
-2. Remove all the HTML tags from the page and add a \<bx:dump var=”#form#”> to the page. Save and upload it to your site.
+1. Create a new page in your `bookstore/public/` folder called `details.bxm`.
+2. On the blank details.bxm page, add a \<bx:dump var=”#form#”> to the page and save it.
 3. Open your index page and type a keyword into the search box. Submit it. Does the detail page appear with the form variables dumped out? There should be one variable called “searchTerm”. Did it work? If not, figure out why and get that working before proceeding.
 4.  Create a connection to the bookstore.common.books class on the index.bxm page by adding
 
@@ -51,7 +46,7 @@ The majority of the results page will be up to your discretion in terms of layou
 
 `<bx:set bookInfo = bookstoreFunctions.searchBooks( form.`searchTerm`) />`
 
-7.  When searching for a book, there are three possible results.
+7.  When searching for a book, there are three possibilities.
 
     1. There are no results
     2. There is one result
@@ -78,7 +73,7 @@ The majority of the results page will be up to your discretion in terms of layou
 
 ### noResults.bxm
 
-NO Results: This is the more straightforward part of this process. Enter a polite message for the user to try again. You can add other things if you wish but it isn’t necessary for our purposes here.
+NO Results: This is the most straightforward part of this process. Enter a polite message for the user to try again. You can add other things if you wish but it isn’t necessary for our purposes here.
 
 ### manyResults.bxm
 
