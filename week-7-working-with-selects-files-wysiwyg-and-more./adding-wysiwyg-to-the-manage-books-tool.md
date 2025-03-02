@@ -1,5 +1,14 @@
 # Adding WYSIWYG to the Manage Books Tool
 
+## Background
+
+We are going to add a new field to our manage books tool ( addEdit.bxm ) which is going to allow us to write a description of the book so our customers can see if they want to buy it or not. The basic steps are
+
+1. Adding a field to our books table
+2. Adding the control to our manage books form and adding CKEDITOR to that as well.&#x20;
+3. Adapting our queries to accomodate the new field.&#x20;
+4. Adapting our details.bxm page to display our new description.&#x20;
+
 ## Adding a Description Field to the Books Table
 
 1. Add a field to the books table called “description” and make it a nvarchar(max) (Why this data type?)
