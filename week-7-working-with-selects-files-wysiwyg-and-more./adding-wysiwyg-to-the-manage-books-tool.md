@@ -11,8 +11,10 @@ We are going to add a new field to our manage books tool ( addEdit.bxm ) which i
 
 ## Adding a Description Field to the Books Table
 
-1. Add a field to the books table called “description” and make it a nvarchar(max) (Why this data type?)
-2. Save the table
+1. Open MySQL Workbench and connect to your database
+2. Right click on your books table and choose Alter
+3. Add description bottom of the list of columns and make it a nvarchar(1000) (Why this data type?)
+4. Press Apply and then Apply to save the table.
 
 ## Editing your Add/Edit Form
 
