@@ -1,28 +1,4 @@
-# Adding WYSIWYG Capabilities
-
-## Background
-
-WYSIWYG (pronounced Wiz-E-Wig) stands for What You See Is What You Get. It is a tool that a non-programmer can use to edit text, format it like you can in a word processer and the HTML is written behind the scenes automatically.
-
-One of the most popular WYSIWYG tools is called CKEDITOR, an open source library written in JavaScript,that allows a form element to be turned into a WYSIWYG editor. We are going to use CKEDITOR to add a “Description” field to our books table.
-
-There are five steps to adding this feature.
-
-1. Downloading and Linking to the JS library
-2. Adding a description field to our books table
-3. Editing the add/edit form
-4. Adapting the update query to accommodate the new description field.
-5. Adapting our details.cfm page to show the description
-
-## Downloading and Linking to the CKEDITOR library
-
-Note: The library might already be in your folders. This is a complete instructions as if it has not been downloaded. There is both a CDN and a downloadable package. You can use either but try to download the library and get it set up for the experience.
-
-1. Go to [https://ckeditor.com/ckeditor-4/download/](https://ckeditor.com/ckeditor-4/download/)
-2. Download the “Standard Package”. This will be a .zip file.
-3. Extract the contents of the .zip file into your “includes” folder. If there is already a ckeditor folder, you can delete it. This will create a folder called ckeditor and several sub folders. Upload them all to your website.
-4. In your /management/index.cfm page add the following line in the \<head> area: \<script src="/_loginname_/includes/ckeditor/ckeditor.js" type="text/javascript">\</script>
-5. Upload the index.cfm page
+# Adding WYSIWYG to the Manage Books Tool
 
 ## Adding a Description Field to the Books Table
 
