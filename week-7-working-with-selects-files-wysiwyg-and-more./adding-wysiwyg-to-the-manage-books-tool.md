@@ -6,7 +6,7 @@ We are going to add a new field to our manage books tool ( addEdit.bxm ) which i
 
 1. Adding a field to our books table
 2. Adding the control to our manage books form and adding CKEDITOR to that as well.&#x20;
-3. Adapting our queries to accomodate the new field.&#x20;
+3. Adapting our queries to accommodate the new field.&#x20;
 4. Adapting our details.bxm page to display our new description.&#x20;
 
 ## Adding a Description Field to the Books Table
@@ -18,41 +18,40 @@ We are going to add a new field to our manage books tool ( addEdit.bxm ) which i
 
 ## Editing your Add/Edit Form
 
-We are going to use a new form element called a \<textarea> as the basis of our WYSIWIG area. Add the following code to your add/edit form:
+Just like in the Manage Articles tool, we are going to use a \<textarea> as the basis of our WYSIWIG. The JS and CSS which we pasted are already in place in the index.bxm file. However, we do need to add the JS which transforms the textarea to a WYSIWYG entry. \
+\
+1\. Add the following code to your add/edit form:
 
 ```
 <div class="form-floating mb-3">
     <textarea id="description" name="description" class="form-control" >
-        <cfoutput>#thisBookDetails.description#</cfoutput>
+        #bookinfo.description#
     </textarea>
-    <script>CKEDITOR.replace('description');</script>
 </div>
 ```
 
-The first \<div> wraps the \<label> and the \<textarea> and should include all the css classes that will stylize your form, either according to the bootstrap rules as described in other docs or by your own styling. The textarea has a start tag and an end tag. In between is the value we want by default. In this case, it is the value #trim(thisBookDetails.description\[1])# which is the description field from the first row of the query bookinfo.
+2. Add the script to convert the textarea. Make sure your license key is in the correct place and that the id of your textarea is in the correct place in the script.&#x20;
+3. Make sure your server is started and open the Manage Books tool. Did it work?
 
-The \<script> tag is what converts the text area to the WYSIWYG tool. It calls an object called CKEDITOR which is created in the script “ckeditor.js” to which we linked in the first step above. It calls a function (a preset series of commands) called “replace” and tells the function to replace the element with the id of ‘description’.
+## Adapting our queries to accommodate the new field
 
-Upload your addedit.cfm page. Does the WYSIWYG show up?
+When we submit our form, there is a data chain that starts with submitting the form and ends up with the information being saved to the database. We need to add our description field to all of those.&#x20;
 
-## Adapting the Update Query
+1. Does the text area have a name property?
+2. When the form is submitted, is form.description passed to common.saveBooks()?
+3. Does common.saveBooks() expect the parameter description to be passed to it?
+4. Does description appear in the insert portion of the query?
+5. Does description appear in the ON DUPLICATE KEY portion of our query
+6. Does Description appear as a value in our parameter structure that gets passed into queryExecute along with our SQL?&#x20;
 
-In the ProcessForms function on the addedit.cfm page is the query which updates the database. We need to add the description field to this update. Somewhere in the query add after the SET keyword and before the WHERE keyword add:
+When this chain is complete, our data will persist to our database and be available to display on the front page.&#x20;
 
-Description = :description
+## Adapting the Details.bxm Page
 
-Make sure you add commas where needed to make the query work correctly. Also add the parameter
+We need to adapt the details page in the public facing area of the website to show the description. In the details page, add:
 
-qs.addParam(name=”description”,value=formData.description);
+\<div>Description: #bookinfo.description\[1]#\</div>
 
-Upload your addedit.cfm and addEdit.cfc page. Try the “round trip” process. Load the page, choose a book, add a description and save. It. Did it save?
-
-## Adapting the Details.cfm Page
-
-We need to adapt the details page in the public facing area of the website to show the description. In the details page, add
-
-\<span>Description: #bookinfo.description\[1]#\</span>
-
-to the book details area. Save and upload details.cfm.
+to the book details area. Save and upload details.bxm.
 
 Did it display correctly? Go back and edit the description and use the controls to add some more HTML including links, bold, italicized etc. Save it and look at the details page again. Did it work?
