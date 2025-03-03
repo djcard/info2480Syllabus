@@ -1,6 +1,2 @@
----
-hidden: true
----
-
-# Week 7: Creating a Public Search Page
+# Week 7: Working with Selects, Files, WYSIWYG and more.
 

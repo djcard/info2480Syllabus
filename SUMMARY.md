@@ -115,7 +115,7 @@
   * [Adding Search To Our Management Page](week-7-working-with-selects-files-wysiwyg-and-more./adding-search-to-our-management-page.md)
   * [Adding WYSIWYG Capabilities](week-7-working-with-selects-files-wysiwyg-and-more./adding-wysiwyg-capabilities.md)
   * [Adding WYSIWYG to the Manage Books Tool](week-7-working-with-selects-files-wysiwyg-and-more./adding-wysiwyg-to-the-manage-books-tool.md)
-  * [Adding Images to our](week-7-working-with-selects-files-wysiwyg-and-more./adding-images-to-our.md)
+  * [Adding Images To Our Store](week-7-working-with-selects-files-wysiwyg-and-more./adding-images-to-our-store.md)
 * [Week 8: Sessions, Logins, Authentication, Authorization, Hashing](weekly-breakdown/week-8-sessions-logins-authentication-authorization-hashing.md)
   * [Adding Permissions To The Site](week-8-sessions-logins-authentication-authorization-hashing/adding-permissions-to-the-site.md)
   * [Personalizing Your WebSite](week-8-sessions-logins-authentication-authorization-hashing/personalizing-your-website.md)

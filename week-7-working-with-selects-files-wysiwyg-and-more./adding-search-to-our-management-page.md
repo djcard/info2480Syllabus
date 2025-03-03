@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Adding Search To Our Management Page
 
 ## Background
