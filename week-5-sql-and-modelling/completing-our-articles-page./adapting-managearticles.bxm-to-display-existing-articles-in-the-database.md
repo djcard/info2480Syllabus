@@ -27,7 +27,7 @@ As you can see, we have a row with two columns in it. Because we have simply use
 
 2.  Move your existing form into the area that says "This is the new place for our form". Your page should look something like this:
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Creating our list of Articles
 
