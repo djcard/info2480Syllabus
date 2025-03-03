@@ -72,3 +72,5 @@ This will put the file name of the image into the form scope so we can save it a
 In our form, we added two \<input> tags – one with the type =”file” with name=“uploadimage” and the other type=”hidden” and name=”image”. Why two? Hopefully now you see that one (image) was to hold the value of the image that was already in the database. The other (uploadimage) was in case we wanted to upload a different file. If we do upload a new image, we process the upload, get the name of the new file and put it into the formData.image variable.
 
 Can you also adapt your form to show the image if it is already in the database?
+
+Can you adapt your front facing details.bxm file to display the image as well?
