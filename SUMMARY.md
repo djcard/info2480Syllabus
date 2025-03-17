@@ -120,6 +120,7 @@
 * [Week 8: Sessions, Logins, Authentication, Authorization, Hashing](weekly-breakdown/week-8-sessions-logins-authentication-authorization-hashing.md)
   * [Adding Permissions To The Site](week-8-sessions-logins-authentication-authorization-hashing/adding-permissions-to-the-site.md)
   * [Personalizing Your WebSite](week-8-sessions-logins-authentication-authorization-hashing/personalizing-your-website.md)
+  * [Displaying Our Publisher](week-8-sessions-logins-authentication-authorization-hashing/displaying-our-publisher.md)
 * [Week 9: A Simple Content Management System](week-9-a-simple-content-management-system.md)
   * [Creating a Browse by Genre](week-9-a-simple-content-management-system/creating-a-browse-by-genre.md)
   * [Creating Content Pages](week-9-a-simple-content-management-system/creating-content-pages.md)

@@ -4,13 +4,13 @@ Use these images as the basis for your book tables. Yours don't have to match ex
 
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Books Table</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Books Table</p></figcaption></figure>
 
 
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>People Table</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>People Table</p></figcaption></figure>
 
 
 

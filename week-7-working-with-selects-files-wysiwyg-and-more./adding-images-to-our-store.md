@@ -1,4 +1,4 @@
-# Adding Images to our
+# Adding Images To Our Store
 
 ## Background
 
@@ -54,7 +54,7 @@ FileUpload takes 4 arguments. Arguments are data that are passed to a function i
 
 FileUpload returns a struct of data which looks like this:&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 There are a number of items here but the one we are particularly interested in is the serverFileName property.&#x20;
 
