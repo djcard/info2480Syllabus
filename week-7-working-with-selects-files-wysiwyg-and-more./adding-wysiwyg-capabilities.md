@@ -14,7 +14,8 @@ There are three initial steps to adding this feature to our Manage Articles tool
 1. Creating a free account at [https://ckeditor.com/](https://ckeditor.com/)
 2. Adapting our manageArticles.bxm page.
 3. Retrieving the free license key from [https://portal.ckeditor.com/](https://portal.ckeditor.com/)
-4.
+
+
 
 ## Creating a Free Account at [https://ckeditor.com/](https://ckeditor.com/)
 
@@ -33,7 +34,7 @@ Visit https://ckeditor.com and click on either `Register for a license key` toda
 
     <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 5. Open bookstore/manage/manageArticles.bxm
-6.  &#x20;Copy the JavaScript command to actually change a textarea tag to our WYSIWYG tool.&#x20;
+6.  &#x20;Copy the JavaScript command to actually change a textarea tag to our WYSIWYG tool. Make sure that the code you copy from the website looks like it does below. If there is a  \<!\[CDATA\[..../> or similar tag surrounding the JS code, make sure you remove it.&#x20;
 
     <figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 7. Visit [https://portal.ckeditor.com/](https://portal.ckeditor.com/) (you'll need to sign in first). Go to License Keys and copy the developer license. Paste it in the script above where it says \<YOUR\_LICENSE\_KEY>
