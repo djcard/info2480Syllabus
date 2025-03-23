@@ -36,13 +36,16 @@ Good. This will return all of the books and the genres to which they have been a
 Now we need to create the conditions. We want to search on the isbn13 when that is submitted and then genre when that is submitted. Remember that we set up a default value of 0 for the genreId and '' for the isbn13.\
 `var ourSQL = "select * from books b` \
 &#x20;     `inner join genresToBooks gtb on b.isbn13 = gtb.isbn13`\
-&#x20;     `inner join genres g on gtb.genreId = g.id`\
+&#x20;     `inner join genres g on gtb.genreId = g.id";`\
 &#x20;     `if(arguments.genreId > 0){`\
 &#x20;        `ourSQL = OurSQL & " where gtb.genreId = #arguments.genreId#";`\
 &#x20;     `}`\
 &#x20;     `if(arguments.isbn13.len() > 0){`\
 &#x20;        `ourSQL = OurSQL & " where gtb.isbn13 = '#arguments.isbn13#'";`\
-&#x20;     `}`\
-`";`
+&#x20;     `}`
 
-When the genreId is greater than 0 ( i.e. it was passed in) we then query the genreId based on that submission. When the ISBN13 has a length greater than 0 (i.e. it was passed in) we then query based on that submission. This is based on the idea that we will be either be sending in a genreId or an isbn13. If a query submitted both, it would, at most, return 1 row which would not really be useful.\
+When the genreId is greater than 0 ( i.e. it was passed in) we then query the genreId based on that submission. When the ISBN13 has a length greater than 0 (i.e. it was passed in) we then query based on that submission. This is based on the idea that we will be either be sending in a genreId or an isbn13. If a query submitted both, it would, at most, return 1 row which would not really be useful.
+
+Now we need to finish that off by running the SQL and returning the results
+
+return queryExecute(ourSQL);\

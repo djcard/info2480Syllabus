@@ -51,16 +51,18 @@ After we handle the image upload we will handle the genre submission.&#x20;
 
 When multiple inputs have the same name in a form, their values are sent together as a comma separated list to the server. In our genres form above, if multiple checkboxes are checked, say for those with the values 4,8, and 10. The data is sent to the server with the format -  genre:4,8,10. We can then take that value and process it like we need to. To do that we are going to first convert that list into an array and then we are going to use a built in function (BIF) called `each`.  Each is one of several BIFs which doesn't accept a value such as a number, string or structure as an argument but, instead, accepts a function as an argument. As it loops over the values in our array, it will feed this function the values in the array, one by one and this passed in function will process the items in the array. Functions which accept functions as arguments are called "Higher Order Functions". The function which is passed is called a "callback function".
 
-The code to call
+The code to call. Just to mix it up a little bit, let's write it in script on our template page, using the \<bx:script> ... \</bx:script>
 
 ```
-if(formData.keyExists("genre")){
-   clearAllBookGenres(form.isbn13);
+<bx:script>
+if(form.keyExists("genre")){
+   common.clearAllBookGenres(form.isbn13);
 
    form.genre.listToArray().each(function(item){
-      saveGenreToBook(item, form.isbn13);
+      common.saveGenreToBook(item, form.isbn13);
    });
 }
+</bx:script>
 ```
 
 The saveGenreToBook function will run one time for each genre that is submitted.&#x20;

@@ -30,5 +30,16 @@ This query is a little more complicated and it will be easier to visualize if we
 
 `function allGenresForBook(genreId=0, isbn13=''){`\
 \
+`}`&#x20;
+
+
+
+## distinctGenres()
+
+The genrenav.bxm currently has a hardcoded list of genres in it. We want a list of each genre for which there is a book in the database. For example, if there is a genre for “Underwater Basket Weaving” but we have no books on that topic, we do not want to list the genre in our genre nav. What would be the point? Conversely, if we have 50 books on any topic, we don’t want that genre to show up 50 times. We want each genre with a book to be displayed once. To do that we are going to use the “DISTINCT” key word.
+
+`function distinctGenres(){`\
+&#x20;   `return queryExecute("select distinct g.id, g.name from genrestobooks gtb` \
+&#x20;        `inner join genres g on g.id = gtb.genreid order by g.name");`\
 `}`
 
