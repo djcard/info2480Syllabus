@@ -124,6 +124,7 @@
     * [Adapting Our Database](week-9-joins-and-prep-for-login/creating-a-browse-by-genre/adapting-our-database.md)
     * [Building our Queries: Part 1](week-9-joins-and-prep-for-login/creating-a-browse-by-genre/building-our-queries-part-1.md)
     * [Assigning Genres to a Book in our AddEdit.bxm page](week-9-joins-and-prep-for-login/creating-a-browse-by-genre/assigning-genres-to-a-book-in-our-addedit.bxm-page.md)
+    * [Building our Queries: Part 2](week-9-joins-and-prep-for-login/creating-a-browse-by-genre/building-our-queries-part-2.md)
 * [Week 9: A Simple Content Management System](week-9-a-simple-content-management-system.md)
   * [Making a Forgot Password Page](week-9-a-simple-content-management-system/making-a-forgot-password-page.md)
   * [Adding Permissions To The Site](week-8-sessions-logins-authentication-authorization-hashing/adding-permissions-to-the-site.md)
