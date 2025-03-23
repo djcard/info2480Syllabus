@@ -14,9 +14,9 @@ Once you have installed SourceTree (or other client) you are ready to experiment
 
 1. Open SourceTree and click the + symbol in top menu bar or choose `FILE -> Clone/New` in the tool bar.&#x20;
 2. Click on CREATE in the tool bar that appears\
-   &#x20;![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+   &#x20;![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 3. If you followed the pattern outlines in the [Folder Structure](../folder-structure.md) section, navigate to `Sites\UML\WebDataImplementation\`and make a new folder called `"practiceGit"` If you didn't, simply choose a empty folder.   \
-   ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+   ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 4. Click Create.&#x20;
 5. Use either Windows Explorer or Finder to go to the `practiceGit` folder. Make sure you have it configured to see hidden files and folders ( Google how if you need to). You should see a folder called ".git" folder. This is where git will save all the information it needs to manage all the branches for the repository ( or repo ) in this folder. **Note: DO NOT SAVE ANY FILES IN THAT FOLDER. Also, do not edit any of the files in that folder. Bad things to your work can happen. Let git handle it all.**&#x20;
 
@@ -32,7 +32,7 @@ Once you have installed SourceTree (or other client) you are ready to experiment
 8. At the bottom of the screen you will see a text box with the button COMMIT underneath it. In the text area, type "INITIAL COMMIT". It is customary to put a comment describing the work you did for each commit.&#x20;
 9. Click Commit. This will put your file into the git repository in that folder. It is now in the version control system and managed by git.&#x20;
 10. Look in the left menu panel under BRANCHES and notice that one called "master" has been created. It is in bold which means that is the branch which is currently checked out so all the files, no matter what program in which you open then, will be editing the files in this branch. \
-    ![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
+    ![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 
 

@@ -4,18 +4,18 @@ Use these images as the basis for your book tables. Yours don't have to match ex
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Books Table</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Books Table</p></figcaption></figure>
 
 
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>People Table</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>People Table</p></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Publishers Table</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Publishers Table</p></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Roles Table</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Roles Table</p></figcaption></figure>

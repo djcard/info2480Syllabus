@@ -16,7 +16,7 @@ The details.bxm template is populated by a query from bookstore.common.books in 
 </bx:output>
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>The rendered code in oneresults.bxm</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>The rendered code in oneresults.bxm</p></figcaption></figure>
 
 That doesn't help us very much since no-one know what publisher "1" is. What we want to do is display the information in the Publishers table which corresponds with the publisherId in the books table. We do this by adding a join to our query. The query which populates our details.bxm page is in the class `bookstore.common.books` in the `searchBooks` method. Currently, our query looks like this:&#x20;
 

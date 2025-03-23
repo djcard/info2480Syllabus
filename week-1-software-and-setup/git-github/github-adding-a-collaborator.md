@@ -7,7 +7,7 @@ We’ve talked about how git is used to share code between developers and then c
 1. Log into your Github account and go to your repository  for this class.
 2. Click on the Settings button in the menu bar
 3. From the left hand menu, click on Collaborators. You might need to go through authentication again. &#x20;
-4. Click on the green button - ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)and enter `daniel-card` into the text box and Choose my name or user name when it appears.
+4. Click on the green button - ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)and enter `daniel-card` into the text box and Choose my name or user name when it appears.
 5. Click the `Add daniel-card to this repository` button
 6. I’ll be notified via my Github inbox to accept the collaboration.
 
