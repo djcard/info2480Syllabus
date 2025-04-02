@@ -31,23 +31,27 @@ The system might know the first name of the user or might not know the first nam
 
 If we take the first item, we can make a variable called “isLoggedIn”. Since someone can’t be partially logged in, at least for what we want to accomplish, this is going to be a Boolean with the potential values of TRUE or FALSE. To start off, when the user first arrives at the site they will not be logged in. Therefore, our initial state will be that isLoggedIn=false. Since this needs to follow the user from page to page, we will put this in the session scope. Here are the steps:
 
-1. Create a blank file called “stateinfo.cfm” in the root of your folder ( The public area)
-2. Create a CFC file in the root of your folder called stateInfo.cfc. Remember that an empty component still needs to have
+1. Create a blank file called “stateinfo.bxm” in the root of your folder ( The public area)
+2. Create a class called bookstore.common.stateInfo file  Remember that an empty component still needs to have
 
-\`component {
+\``class {`\
+\
+`}`\
+\
+3\. At the top of stateInfo.bxm, instantiate the stateInfo component by typing\<cfset stateFunctions = createObject(”stateInfo”) />\`&#x20;
 
-}`3. At the top of stateInfo.cfm, instantiate the stateInfo component by typing`\<cfset stateFunctions = createObject(”stateInfo”) />\` 4. Under that, in the stateInfo.cfm page, add:
+4\. Under that, in the stateInfo.bxm page, add:
 
 ```
-`<cfif !session.keyExists(”user”)>  
-   <cfset session.user = stateFunctions.obtainUser() /> 
-</cfif>` 
+<bx:if !session.keyExists(”user”)>  
+   <bx:set session.user = stateFunctions.obtainUser() /> 
+</bx:if> 
 ```
 
 ”Session” is a scope, a “bucket of variables” which is always there and to which we can read and write variables, like a structure. In this case, we are saying that if there is no “user” key in the session scope, to run stateFunctions.obtainUser and set session.user to the result.
 
 We are going to have a structure called `user` which is going to be in the session scope. That way we will always be able to access the user’s name, account number and email if they are logged in. However, if they are not logged in, we need to have some default values. Since we are actually going to make a “clean” or empty user structure in more than one place, we’re going to make it a function that we can call from our code.\
-5\. In the `stateInfo.cfc`, create a function called `obtainUser()`. It will accept 5 parameters and return a structure. The five parameters are `isLoggedIn`, `firstName`, `lastName`, `email`, and `acctNumber`. IsLoggedIn will default to false and the rest will be blank. Here is more or less what the function should look like:
+5\. In the `stateInfo.bx`, create a function called `obtainUser()`. It will accept 5 parameters and return a structure. The five parameters are `isLoggedIn`, `firstName`, `lastName`, `email`, and `acctNumber`. IsLoggedIn will default to false and the rest will be blank. Here is more or less what the function should look like:
 
 ```
 function obtainUser(
@@ -67,13 +71,13 @@ function obtainUser(
 }
 ```
 
-**Last Step:** Create a standalone page called `sessiondump.cfm` in the root of your site. In the body tag put simply:
+**Last Step:** Create a standalone page called `sessiondump.bxm` in the root of your site. In the body tag put simply:
 
-`<cfdump var=”#session#”>`
+`<bx:dump var=”#session#”>`
 
-Upload the page. Since sessions can be tricky to diagnose and keep straight, you can dump out this page at any time to see what the session variables are.
+Since sessions can be tricky to diagnose and keep straight, you can dump out this page at any time to see what the session variables are.
 
-Open the page to make sure there aren’t any errors. Open sessiondump.cfm and you should see the isLoggedIn values and the session.user object with no values in it. You might also see some other keys such a CFID, CFTOKEN, sessionid and urltoken. These are session variables that CF uses to keep track of what your particular session is.
+Open the page to make sure there aren’t any errors. Open sessiondump.bxm and you should see the isLoggedIn values and the session.user object with no values in it. You might also see some other keys such a CFID, CFTOKEN, sessionid and urltoken. These are session variables that CF uses to keep track of what your particular session is.
 
 ### Creating the Data Tables
 

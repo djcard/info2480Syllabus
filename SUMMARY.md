@@ -132,3 +132,4 @@
   * [Adding Permissions To The Site](week-8-sessions-logins-authentication-authorization-hashing/adding-permissions-to-the-site.md)
   * [Personalizing Your WebSite](week-8-sessions-logins-authentication-authorization-hashing/personalizing-your-website.md)
 * [Week 10: Complete Final Project](week-10-complete-final-project.md)
+* [End of Project Checkllist](end-of-project-checkllist.md)
