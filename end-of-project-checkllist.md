@@ -28,6 +28,7 @@ Over the past several sessions, we've created several dynamic tools that allow o
 ### Horizontal Navigation
 
 * [ ] Links to one or more articles which opens content.bxm in the dynamic area
+* [ ] Should show articles in the database with active=1
 * [ ] A search form which opens details.bxm in the dynamic area
 
 ### Footer - bookstore/public/footer.bxm
@@ -79,6 +80,7 @@ Over the past several sessions, we've created several dynamic tools that allow o
 * [ ] When the new article link is clicked or an article chosen, display the edit form
 * [ ] The edit form should include the id of the article, the title and the description
 * [ ] The description should be a WYSIWYG tool.
+* [ ] Show an Active Button to make the article appear in the front navigation
 
 ### Add / Edit Books - bookstore/manage/addEdit.bxm
 
