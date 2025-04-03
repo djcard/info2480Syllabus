@@ -2,6 +2,12 @@
 
 Over the past several sessions, we've created several dynamic tools that allow our booksttore's staff to manage the books they sell and for customers to find the books they want. This is a checklist that your site should have broken down by pages. Even if your pages don't match this exactly, all of this functionality should be present to have a complete project.&#x20;
 
+## General Comments
+
+* [ ] Make sure all links work
+* [ ] Make sure all images appear (no broken images)
+* [ ] Remove all \<bx:dump> tags and other "scaffolding" output
+
 ## The Front Facing Application
 
 ### Front Page - bookstore/public/index.bxm
