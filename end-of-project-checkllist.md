@@ -24,6 +24,9 @@ Over the past several sessions, we've created several dynamic tools that allow o
 ### Header - bookstore/public/header.bxm
 
 * [ ] The name of your store or any extra styling you wish
+
+### Horizontal Navigation
+
 * [ ] Links to one or more articles which opens content.bxm in the dynamic area
 * [ ] A search form which opens details.bxm in the dynamic area
 
