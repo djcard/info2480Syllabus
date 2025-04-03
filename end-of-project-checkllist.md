@@ -75,8 +75,8 @@ Over the past several sessions, we've created several dynamic tools that allow o
 
 ### Manage Articles - bookstore/manage/manageArticles.bxm
 
-* [ ] Display a list to create a new article
-* [ ] Display a list of articles in the database
+* [ ] Display a link to create a new article
+* [ ] Display a list of articles in the database which can be clicked to choose an article to edit.
 * [ ] When the new article link is clicked or an article chosen, display the edit form
 * [ ] The edit form should include the id of the article, the title and the description
 * [ ] The description should be a WYSIWYG tool.
