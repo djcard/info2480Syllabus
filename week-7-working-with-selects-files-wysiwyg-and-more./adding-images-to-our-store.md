@@ -47,7 +47,7 @@ function uploadFile( fileField ){
 
 FileUpload takes 4 arguments. Arguments are data that are passed to a function in order for the function to run. In this case the four arguments are
 
-1. Destination (The folder where the image will be sent) expandpath(**'/'**) & **/CodeBase/images/"**
+1. Destination (The folder where the image will be sent) expandpath(**'/bookstore/common/images'**)
 2. fileField – The form field with the image data - **"uploadimage"**
 3. accept – the types of images the upload will accept - **"\*"**
 4. nameconflict – What should the upload do if there is already a file with that name in the destination folder. - **"makeunique"**
