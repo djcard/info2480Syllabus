@@ -6,7 +6,7 @@ description: All of the methods below will go into the bookstore.common.books cl
 
 ## allGenres()
 
-This function will return all the genres in out genres table. By now you should have all the knowledge you need to create this query. If you need to go back and look at the other queries we've developed, go for it.&#x20;
+This function will return all the genres in our genres table. By now you should have all the knowledge you need to create this query. If you need to go back and look at the other queries we've developed, go for it.&#x20;
 
 
 
