@@ -41,16 +41,14 @@ Since we want to follow good separation of concerns, we are going to put all of 
    `class {`\
    \
    `}`
-3.  Now we are going to create a function inside that class. A function is just a collection of code that has a name and can be called whenever it is needed. We'll go more into functions next week but for now, just follow the code here. We're going to name our function `saveArticle`. \
-
+3.  Now we are going to create a function inside that class. A function is just a collection of code that has a name and can be called whenever it is needed. We'll go more into functions next week but for now, just follow the code here. We're going to name our function `saveArticle`. <br>
 
     ```boxlang
     function saveArticle( ){
        
     }
     ```
-4.  Our function is going to need several pieces of data to do it's job. In the parentheses after the function name, we are going to list the pieces of data it is expecting, what type of data it should be and whether or not it is required. \
-
+4.  Our function is going to need several pieces of data to do it's job. In the parentheses after the function name, we are going to list the pieces of data it is expecting, what type of data it should be and whether or not it is required. <br>
 
     ```boxlang
     function saveArticle( required string title="", required string description="", numeric status=0 ){
@@ -58,10 +56,8 @@ Since we want to follow good separation of concerns, we are going to put all of 
     }
     ```
 
-    \
-
-5.  And now we need to actually put in the part of the code which will do the job we want. In this case, save our data to the database. \
-
+    <br>
+5.  And now we need to actually put in the part of the code which will do the job we want. In this case, save our data to the database. <br>
 
     ```boxlang
         function saveArticle( required string title="", required string description="", numeric status=0 ){
@@ -80,8 +76,7 @@ Since we want to follow good separation of concerns, we are going to put all of 
 
 The last step is to tell our form to send our submitted data to our articles.bx file.&#x20;
 
-1. In manageArticles.bxm, edit the if statement at the top of the page to this: \
-
+1. In manageArticles.bxm, edit the if statement at the top of the page to this: <br>
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

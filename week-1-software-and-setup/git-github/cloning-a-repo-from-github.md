@@ -7,8 +7,7 @@
 If you find a repo you want to use (or have created your own on in your own repo and want to start using it), the next step is to CLONE that repo to your local machine. Cloning, just like in biology, is creating an exact copy of the repo in another location. In this case we are going to clone the repo you created for your exercises in the [Git: Creating a Repo on Github](creating-a-repo-on-github.md) onto your local machine.
 
 1. Log into your [Github.com](http://github.com) account.
-2.  Go to the home page for the repo you created. You should see the content of the README.md file if you checked the box during the creation process. You should see something like this:\
-
+2.  Go to the home page for the repo you created. You should see the content of the README.md file if you checked the box during the creation process. You should see something like this:<br>
 
     <figure><img src="../../.gitbook/assets/github3.png" alt=""><figcaption></figcaption></figure>
 3. Open SourceTree.

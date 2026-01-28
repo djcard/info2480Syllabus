@@ -40,8 +40,7 @@ The majority of the results page will be up to your discretion in terms of layou
     `<bx:set bookstoreFunctions = createObject("bookstore.common.books") />`
 5. In book.bx, we have already made a function called searchBooks which should look something like this: \
    `select * from books where title like '%#trim(form.`searchTerm`)#%' or isbn13 like '%#trim(searchme)#%'`\
-   Most of this should be very clear by now but the second line is new. Why are we searching on both the title and the ISBN? \
-
+   Most of this should be very clear by now but the second line is new. Why are we searching on both the title and the ISBN? <br>
 6. From details.bxm, call bookstoreFunction.searchBooks() and pass in form.searchTerm. Use a variable called “bookInfo”. It should look similar to this:
 
 `<bx:set bookInfo = bookstoreFunctions.searchBooks( form.`searchTerm`) />`

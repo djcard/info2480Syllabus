@@ -39,8 +39,7 @@ To make this happen, we need to put in a \<bx:if>\</bx:if> statement. the thing 
 We already have the ability to choose a title and pass in the ID. We now need to tall our form to query the database for the article.&#x20;
 
 1. In bookstore.common.articles, create a function called articlesById which accepts one argument which is id.
-2.  Use queryExecute to send the SQL to retrieve that article from the database and then return the results. Something like this below. \
-
+2.  Use queryExecute to send the SQL to retrieve that article from the database and then return the results. Something like this below. <br>
 
     ```boxlang
         function articleById( required numeric id){

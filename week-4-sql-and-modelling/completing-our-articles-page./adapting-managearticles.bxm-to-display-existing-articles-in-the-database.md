@@ -31,8 +31,7 @@ As you can see, we have a row with two columns in it. Because we have simply use
 
 ## Creating our list of Articles
 
-1. To get a list of the articles in our DB we need to create a function in our bookstore.common.articles.bx file. Let's call it "allArticles". Just like we did in the "saveArticle" function, we are going to use queryExecute() to send our SQL to the MySQL server to get our data. After doing the [Introduction to SQL](../introduction-to-sql.md) exercise, you should be able to write the SQL to retrieve the data we want. Can you? Your function in bookstore.common.articles should look something like this:\
-
+1. To get a list of the articles in our DB we need to create a function in our bookstore.common.articles.bx file. Let's call it "allArticles". Just like we did in the "saveArticle" function, we are going to use queryExecute() to send our SQL to the MySQL server to get our data. After doing the [Introduction to SQL](../introduction-to-sql.md) exercise, you should be able to write the SQL to retrieve the data we want. Can you? Your function in bookstore.common.articles should look something like this:<br>
 
 ```boxlang
     function allArticles( ){
@@ -44,8 +43,7 @@ As you can see, we have a row with two columns in it. Because we have simply use
    1. Move the line `<bx:set common = createObject("bookstore.common.articles") />` out of the \<bx:if> statement that it is in currently and up to the top of the page. We now need that common variable all the time, not just when we submit the form. This is the first thing that needs to run on the page so put it at the top.&#x20;
    2. The next thing we need to do is handle any form submission so keep the `<bx:if form.keyExists("title")>.......</bx:if>`  next. Remember that almost all template pages whether in pure HTML, BoxLang or other languages, are going to process from top to bottom so we need to keep things in the order we need them to happen.&#x20;
    3. Under the `<bx:if>` block, let's retrieve all of the articles from our DB. We are going to call the allArticles function on our common variable and store the results in a variable. Let's call that variable `allArticles` so it is clear what it contains.  Something like this:  `<bx:set allArticles = common.allArticles() />`
-   4.  We now need to use the results in that variable to make our list. In the column we made above that says `This is for our list of articles`, we need to create an ordered list by using `<ol></ol>` tag. Inside that ordered list, we are going to LOOP over our query results and create one \<li>\</li> element for each item in our results. This whole section looks like this. Notice how we are looping over the query. We are using #id# and #title# to represent fields in our database. Each \<li>\</li> represents one row in our data table. \
-
+   4.  We now need to use the results in that variable to make our list. In the column we made above that says `This is for our list of articles`, we need to create an ordered list by using `<ol></ol>` tag. Inside that ordered list, we are going to LOOP over our query results and create one \<li>\</li> element for each item in our results. This whole section looks like this. Notice how we are looping over the query. We are using #id# and #title# to represent fields in our database. Each \<li>\</li> represents one row in our data table. <br>
 
        ```boxlang
        <ol>

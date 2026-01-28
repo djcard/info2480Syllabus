@@ -48,4 +48,4 @@ When the genreId is greater than 0 ( i.e. it was passed in) we then query the ge
 
 Now we need to finish that off by running the SQL and returning the results
 
-return queryExecute(ourSQL);\
+return queryExecute(ourSQL);<br>

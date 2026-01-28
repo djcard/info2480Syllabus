@@ -2,7 +2,7 @@
 
 Background
 
-So far in the course we have done a refresher on HTML/CSS, we have looked at databases and done a cursory (yet decent) look at BoxLang. Now we start the process of putting them all together to create our web app. That brings up the question, “What exactly are we trying to create?”
+So far in the course we have done a refresher on HTML/CSS, we have looked at databases and done a cursory  look at BoxLang. Now we start the process of putting them all together to create our web app. That brings up the question, “What exactly are we trying to create?”
 
 Before we can start coding, it would help to have a picture of what we want to accomplish. To do that we're going to introduce two new topics. The first is called user profiling. The second is called diagramming. Diagramming is drawing…well….a diagram of the website in a way that allows us to visualize parts of our web site and how they relate. For example, at this point, what do we know about our website? We know:
 

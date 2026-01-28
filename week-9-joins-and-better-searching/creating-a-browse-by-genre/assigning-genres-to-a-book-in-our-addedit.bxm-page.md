@@ -18,8 +18,7 @@
    1\. All of these checkboxes will have the same name. This is intentional and the reason will become clear very soon. \
    2\. Each of the checkboxes have a unique id in a predictable way. This is also intentional and the reasons for this will become clear as well. &#x20;
 
-&#x20;When you open the page in your browser you should see something like this: \
-
+&#x20;When you open the page in your browser you should see something like this: <br>
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,8 +31,7 @@ Remember that this query only has the genres which the book we are editing has a
 
 ### Add/Edit Page: Submission
 
-We are already handling the submission of form data at the top of the page inside the section checking if we've submitted the input isbn13. \
-
+We are already handling the submission of form data at the top of the page inside the section checking if we've submitted the input isbn13. <br>
 
 ```boxlang
 <bx:if form.keyExists("isbn13")>

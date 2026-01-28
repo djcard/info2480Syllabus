@@ -70,9 +70,7 @@ As we create these things, we are also going to use many of the tools which are 
 We will be using a new language called BoxLang which has a rich ecosystem of development tools and a syntax which is easy to learn with a minimum of overheard and "boilerplate" typing necessary which allows us to focus on the main code of our project. In additional to being powerful and versatile in its own right, the concepts we learn in this class are transferrable too nearly any other programming language so there is no fear of being "locked in" to using a particular language.
 
 \
-Hopefully we'll have some fun along the way as well.&#x20;
-
-&#x20;
+Hopefully we'll have some fun along the way as well. &#x20;
 
 ## Teaching Methods: &#x20;
 
@@ -166,8 +164,7 @@ Students should expect that chat sessions will be recorded and made available on
 
 ## Late Work&#x20;
 
-In this class, each week involves work and concepts which build on the previous weeks so it is highly encouraged that you keep as up to date as possible. However, life happens and sometimes things needs to take higher priority than the weeks assignments. If you find yourself getting behind in the class or there are extenuating circumstances which I should know about, please reach out to me. \
-
+In this class, each week involves work and concepts which build on the previous weeks so it is highly encouraged that you keep as up to date as possible. However, life happens and sometimes things needs to take higher priority than the weeks assignments. If you find yourself getting behind in the class or there are extenuating circumstances which I should know about, please reach out to me. <br>
 
 ## Course Outline & Class Schedule:&#x20;
 

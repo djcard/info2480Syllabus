@@ -18,8 +18,7 @@ Instead, we're going to adapt our existing allArticles function.&#x20;
     ```boxlang
     var extra = status > -1 ? "where status=#status#" : "";
     ```
-3.  We now need to put that extra variable into our query. Our entire function now looks like this:\
-
+3.  We now need to put that extra variable into our query. Our entire function now looks like this:<br>
 
     ```boxlang
         function allArticles( numeric status=-1 ){
